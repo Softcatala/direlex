@@ -1,0 +1,7 @@
+{{ template "search.html" . }}
+<p><strong>Llista de lemes</strong></p>
+<div class="letters">
+    {{ range .Letters }}
+        <a href="/lletra/{{ . }}">{{ . | upper }}</a>
+    {{ end }}
+</div>

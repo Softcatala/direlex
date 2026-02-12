@@ -1,0 +1,30 @@
+{
+	auto_https off
+	admin off
+}
+
+:80
+
+root * /usr/share/caddy
+
+# Cache all requests for 6 hours
+header Cache-Control "public, max-age=21600"
+
+# Remove the Server header
+header -Server
+
+# Clean URLs: /lema/abril -> /lema/abril.html
+try_files {path} {path}.html
+
+# Serve precompressed files automatically (brotli preferred, then gzip)
+file_server {
+	precompressed br gzip
+}
+
+# Custom 404 page
+handle_errors {
+	rewrite * /404.html
+	file_server {
+		precompressed br gzip
+	}
+}

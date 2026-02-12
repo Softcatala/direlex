@@ -1,0 +1,10 @@
+# Docker Compose configuration for static site deployment with Caddy
+services:
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.static
+    ports:
+      - "${PORT:-80}:80"
+    container_name: direlex-static
+    restart: unless-stopped

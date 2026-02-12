@@ -1,0 +1,30 @@
+name: Docker Startup Test
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  test-docker-startup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@main
+
+      - name: Start Docker Compose services
+        run: docker compose up -d
+
+      - name: Wait for and test web server
+        run: |
+          timeout 30 sh -c 'until curl -f http://localhost > /dev/null 2>&1; do echo "Waiting for app..."; sleep 2; done'
+
+      - name: Show logs on failure
+        if: failure()
+        run: docker compose logs
+
+      - name: Cleanup
+        if: always()
+        run: docker compose down -v

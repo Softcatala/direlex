@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    ports:
+      - "${PORT:-80}:80"
+    container_name: direlex-go

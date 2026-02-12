@@ -1,0 +1,29 @@
+# --- Build stage ---
+FROM golang:1.26-alpine@sha256:d4c4845f5d60c6a974c6000ce58ae079328d03ab7f721a0734277e69905473e5 AS builder
+
+WORKDIR /app
+
+COPY go.mod go.sum ./
+RUN go mod download
+
+COPY cmd/ cmd/
+COPY css/ css/
+COPY internal/ internal/
+COPY js/ js/
+COPY public/ public/
+
+RUN go run ./cmd/build-assets
+
+COPY data/ data/
+
+RUN go run ./cmd/generate
+
+# --- Caddy stage ---
+# Using v2.10.0 to avoid bug https://github.com/caddyserver/caddy/issues/7250
+# Fixed in master but to be yet released in v2.13.0
+FROM caddy:2.10.0-alpine@sha256:ae4458638da8e1a91aafffb231c5f8778e964bca650c8a8cb23a7e8ac557aa3c
+
+COPY deploy/Caddyfile /etc/caddy/Caddyfile
+COPY --from=builder /app/build /usr/share/caddy
+
+EXPOSE 80
