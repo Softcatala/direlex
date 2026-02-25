@@ -1,0 +1,44 @@
+<section class="content">
+    <h2>Glossari</h2>
+    <div class="search search-glossary">
+        <div class="search-form">
+            <input
+                type="search"
+                placeholder="Introduïu un terme del glossari..."
+                aria-label="Cerca de termes del glossari"
+                autocomplete="off"
+                autocapitalize="off"
+                required>
+        </div>
+    </div>
+    <div class="letters">
+        {{ range .GlossaryLetters }}
+            <a href="#{{ . | lower }}">{{ . }}</a>
+        {{ end }}
+    </div>
+    <h3>Abreviatures i símbols emprats en aquest glossari</h3>
+    <table>
+        <tr>
+            <td class="smallcaps">CS</td>
+            <td>Camp Semàntic: termes del camp semàntic dins cada accepció de l'article.</td>
+        </tr>
+        <tr>
+            <td class="smallcaps">Der</td>
+            <td>Lloc on apareixen els mots derivats dins cada accepció de l'article.</td>
+        </tr>
+        <tr>
+            <td>/ [barra]</td>
+            <td>Assenyala una consideració de distinció, com en el cas de 'flac/feble'.</td>
+        </tr>
+        <tr>
+            <td>* [asterisc]</td>
+            <td>Marca una informació específica (normativa, estilística, etc.) sobre el mot assenyalat. L'ús de l'asterisc en aquest glossari no vol pas dir, doncs, que es tracti, forçosament, d'un senyal d'incorrecció: és una observació que assenyala incorreccions, però també consideracions referents als usos, a l'estil, etc.</td>
+        </tr>
+    </table>
+    {{ range .GlossaryLetters }}
+        <h3 id="{{ . | lower }}">{{ . }}</h3>
+        {{ index $.GlossaryContent . }}
+    {{ end }}
+</section>
+<a href="#" id="back-to-top" aria-label="Tornar a dalt">↑</a>
+<script src="/js/search-glossary.min.js" async></script>

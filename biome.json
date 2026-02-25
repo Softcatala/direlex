@@ -1,0 +1,72 @@
+{
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "includes": ["js/*.js", "css/*.css", "*.json"]
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "lineWidth": 120
+  },
+  "linter": {
+    "rules": {
+      "complexity": {
+        "noForEach": "error",
+        "noImplicitCoercions": "error",
+        "noUselessStringConcat": "error",
+        "noVoid": "error"
+      },
+      "correctness": {
+        "noUndeclaredVariables": "error"
+      },
+      "nursery": {
+        "recommended": true
+      },
+      "style": {
+        "noNegationElse": "error",
+        "noDescendingSpecificity": "off",
+        "noNestedTernary": "error",
+        "noParameterAssign": "error",
+        "noSubstr": "error",
+        "noYodaExpression": "error",
+        "useBlockStatements": "error",
+        "useCollapsedElseIf": "error",
+        "useCollapsedIf": "error",
+        "useConsistentBuiltinInstantiation": "error",
+        "useDefaultParameterLast": "error",
+        "useDefaultSwitchClause": "error",
+        "useExplicitLengthCheck": "error",
+        "useForOf": "error",
+        "useGroupedAccessorPairs": "error",
+        "useNumberNamespace": "error",
+        "useShorthandAssign": "error",
+        "useSingleVarDeclarator": "error",
+        "useSymbolDescription": "error",
+        "useThrowNewError": "error",
+        "useTrimStartEnd": "error"
+      },
+      "suspicious": {
+        "noConstantBinaryExpressions": "error",
+        "useErrorMessage": "error",
+        "noEmptyBlockStatements": "error",
+        "noFunctionAssign": "error",
+        "noUnassignedVariables": "error",
+        "noVar": "error",
+        "useAwait": "error",
+        "useGuardForIn": "error",
+        "useNumberToFixedDigitsArgument": "error"
+      }
+    }
+  },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on",
+        "useSortedProperties": "on"
+      }
+    }
+  }
+}

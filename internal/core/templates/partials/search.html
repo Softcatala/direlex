@@ -1,0 +1,14 @@
+<div class="search">
+    <div class="search-form">
+        <input
+            type="search"
+            placeholder="Introduïu un lema..."
+            aria-label="Cerca de lemes"
+            autocomplete="off"
+            autocapitalize="off"
+            required
+            {{ if eq .PageType "entry" }}value="{{ .PlainTextTitle }}"{{ end }}
+        >
+    </div>
+    <script src="/js/search.min.js" async></script>
+</div>

@@ -1,0 +1,27 @@
+{
+	admin off
+	auto_https off
+}
+
+:80
+
+root * /usr/share/caddy
+
+header -Server
+
+# Make the browser cache responses for 6 hours
+header Cache-Control "public, max-age=21600"
+
+# Clean URLs: /lema/abril -> /lema/abril.html
+try_files {path} {path}.html
+
+file_server {
+	precompressed br gzip
+}
+
+handle_errors {
+	rewrite * /404.html
+	file_server {
+		precompressed br gzip
+	}
+}

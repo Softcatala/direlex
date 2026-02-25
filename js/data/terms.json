@@ -1,0 +1,5592 @@
+[
+    {
+        "t": "abril",
+        "d": "abril",
+        "s": "abril"
+    },
+    {
+        "t": "absència",
+        "d": "absència",
+        "s": "absencia"
+    },
+    {
+        "t": "acabar",
+        "d": "acabar",
+        "s": "acabar"
+    },
+    {
+        "t": "accident",
+        "d": "accident",
+        "s": "accident"
+    },
+    {
+        "t": "acostar",
+        "d": "acostar",
+        "s": "acostar"
+    },
+    {
+        "t": "actitud",
+        "d": "actitud",
+        "s": "actitud"
+    },
+    {
+        "t": "adeu",
+        "d": "adeu",
+        "s": "adeu"
+    },
+    {
+        "t": "adeu-siau",
+        "d": "adeu-siau",
+        "s": "adeu-siau"
+    },
+    {
+        "t": "adobar",
+        "d": "adobar",
+        "s": "adobar"
+    },
+    {
+        "t": "adonar-se_(de)",
+        "d": "adonar-se <span class=\"no-bold\">(de)<\/span>",
+        "s": "adonar-se (de)"
+    },
+    {
+        "t": "adornar",
+        "d": "adornar",
+        "s": "adornar"
+    },
+    {
+        "t": "adult_|_adulta",
+        "d": "adult <span class=\"no-bold\">|<\/span> adulta",
+        "s": "adult | adulta"
+    },
+    {
+        "t": "afegir",
+        "d": "afegir",
+        "s": "afegir"
+    },
+    {
+        "t": "afer",
+        "d": "afer",
+        "s": "afer"
+    },
+    {
+        "t": "agafar",
+        "d": "agafar",
+        "s": "agafar"
+    },
+    {
+        "t": "agarrar",
+        "d": "agarrar",
+        "s": "agarrar"
+    },
+    {
+        "t": "agost",
+        "d": "agost",
+        "s": "agost"
+    },
+    {
+        "t": "agradable",
+        "d": "agradable",
+        "s": "agradable"
+    },
+    {
+        "t": "agradar",
+        "d": "agradar",
+        "s": "agradar"
+    },
+    {
+        "t": "agrair",
+        "d": "agrair",
+        "s": "agrair"
+    },
+    {
+        "t": "aguantar",
+        "d": "aguantar",
+        "s": "aguantar"
+    },
+    {
+        "t": "agulla",
+        "d": "agulla",
+        "s": "agulla"
+    },
+    {
+        "t": "ahir",
+        "d": "ahir",
+        "s": "ahir"
+    },
+    {
+        "t": "aigua",
+        "d": "aigua",
+        "s": "aigua"
+    },
+    {
+        "t": "aire",
+        "d": "aire",
+        "s": "aire"
+    },
+    {
+        "t": "aixecar",
+        "d": "aixecar",
+        "s": "aixecar"
+    },
+    {
+        "t": "ajudar",
+        "d": "ajudar",
+        "s": "ajudar"
+    },
+    {
+        "t": "ala",
+        "d": "ala",
+        "s": "ala"
+    },
+    {
+        "t": "alçada",
+        "d": "alçada",
+        "s": "alçada"
+    },
+    {
+        "t": "alçar",
+        "d": "alçar",
+        "s": "alçar"
+    },
+    {
+        "t": "alegria",
+        "d": "alegria",
+        "s": "alegria"
+    },
+    {
+        "t": "aliment",
+        "d": "aliment",
+        "s": "aliment"
+    },
+    {
+        "t": "all",
+        "d": "all",
+        "s": "all"
+    },
+    {
+        "t": "al·lot",
+        "d": "al·lot",
+        "s": "al·lot"
+    },
+    {
+        "t": "allunyar",
+        "d": "allunyar",
+        "s": "allunyar"
+    },
+    {
+        "t": "alt_|_alta",
+        "d": "alt <span class=\"no-bold\">|<\/span> alta",
+        "s": "alt | alta"
+    },
+    {
+        "t": "alumne",
+        "d": "alumne",
+        "s": "alumne"
+    },
+    {
+        "t": "amable",
+        "d": "amable",
+        "s": "amable"
+    },
+    {
+        "t": "amagar",
+        "d": "amagar",
+        "s": "amagar"
+    },
+    {
+        "t": "ambient",
+        "d": "ambient",
+        "s": "ambient"
+    },
+    {
+        "t": "amic_|_amiga",
+        "d": "amic <span class=\"no-bold\">|<\/span> amiga",
+        "s": "amic | amiga"
+    },
+    {
+        "t": "amor",
+        "d": "amor",
+        "s": "amor"
+    },
+    {
+        "t": "ample_|_ampla",
+        "d": "ample <span class=\"no-bold\">|<\/span> ampla",
+        "s": "ample | ampla"
+    },
+    {
+        "t": "ampolla",
+        "d": "ampolla",
+        "s": "ampolla"
+    },
+    {
+        "t": "anar",
+        "d": "anar",
+        "s": "anar"
+    },
+    {
+        "t": "angoixa",
+        "d": "angoixa",
+        "s": "angoixa"
+    },
+    {
+        "t": "ànima",
+        "d": "ànima",
+        "s": "anima"
+    },
+    {
+        "t": "animal",
+        "d": "animal",
+        "s": "animal"
+    },
+    {
+        "t": "antic_|_antiga",
+        "d": "antic <span class=\"no-bold\">|<\/span> antiga",
+        "s": "antic | antiga"
+    },
+    {
+        "t": "any",
+        "d": "any",
+        "s": "any"
+    },
+    {
+        "t": "apagar",
+        "d": "apagar",
+        "s": "apagar"
+    },
+    {
+        "t": "àpat",
+        "d": "àpat",
+        "s": "apat"
+    },
+    {
+        "t": "aplegar",
+        "d": "aplegar",
+        "s": "aplegar"
+    },
+    {
+        "t": "aprendre",
+        "d": "aprendre",
+        "s": "aprendre"
+    },
+    {
+        "t": "apujar",
+        "d": "apujar",
+        "s": "apujar"
+    },
+    {
+        "t": "aquell",
+        "d": "aquell",
+        "s": "aquell"
+    },
+    {
+        "t": "ara",
+        "d": "ara",
+        "s": "ara"
+    },
+    {
+        "t": "arbre",
+        "d": "arbre",
+        "s": "arbre"
+    },
+    {
+        "t": "arena",
+        "d": "arena",
+        "s": "arena"
+    },
+    {
+        "t": "arma",
+        "d": "arma",
+        "s": "arma"
+    },
+    {
+        "t": "armari",
+        "d": "armari",
+        "s": "armari"
+    },
+    {
+        "t": "arreglar",
+        "d": "arreglar",
+        "s": "arreglar"
+    },
+    {
+        "t": "arrel",
+        "d": "arrel",
+        "s": "arrel"
+    },
+    {
+        "t": "arrencar_(o_arrancar)",
+        "d": "arrencar <span class=\"no-bold\">(o<\/span> arrancar<span class=\"no-bold\">)<\/span>",
+        "s": "arrencar (o arrancar)"
+    },
+    {
+        "t": "arribar",
+        "d": "arribar",
+        "s": "arribar"
+    },
+    {
+        "t": "art",
+        "d": "art",
+        "s": "art"
+    },
+    {
+        "t": "ase",
+        "d": "ase",
+        "s": "ase"
+    },
+    {
+        "t": "aspecte",
+        "d": "aspecte",
+        "s": "aspecte"
+    },
+    {
+        "t": "asseure's",
+        "d": "asseure's",
+        "s": "asseure's"
+    },
+    {
+        "t": "atac",
+        "d": "atac",
+        "s": "atac"
+    },
+    {
+        "t": "atacar",
+        "d": "atacar",
+        "s": "atacar"
+    },
+    {
+        "t": "atenció",
+        "d": "atenció",
+        "s": "atencio"
+    },
+    {
+        "t": "aturar",
+        "d": "aturar",
+        "s": "aturar"
+    },
+    {
+        "t": "au",
+        "d": "au",
+        "s": "au"
+    },
+    {
+        "t": "auto",
+        "d": "auto",
+        "s": "auto"
+    },
+    {
+        "t": "autobús",
+        "d": "autobús",
+        "s": "autobus"
+    },
+    {
+        "t": "automòbil",
+        "d": "automòbil",
+        "s": "automobil"
+    },
+    {
+        "t": "autoritat",
+        "d": "autoritat",
+        "s": "autoritat"
+    },
+    {
+        "t": "avançar",
+        "d": "avançar",
+        "s": "avançar"
+    },
+    {
+        "t": "avar_|_avara",
+        "d": "avar <span class=\"no-bold\">|<\/span> avara",
+        "s": "avar | avara"
+    },
+    {
+        "t": "avaria",
+        "d": "avaria",
+        "s": "avaria"
+    },
+    {
+        "t": "avi",
+        "d": "avi",
+        "s": "avi"
+    },
+    {
+        "t": "aviat",
+        "d": "aviat",
+        "s": "aviat"
+    },
+    {
+        "t": "avió",
+        "d": "avió",
+        "s": "avio"
+    },
+    {
+        "t": "avui",
+        "d": "avui",
+        "s": "avui"
+    },
+    {
+        "t": "baix_|_baixa",
+        "d": "baix <span class=\"no-bold\">|<\/span> baixa",
+        "s": "baix | baixa"
+    },
+    {
+        "t": "baixar",
+        "d": "baixar",
+        "s": "baixar"
+    },
+    {
+        "t": "ball",
+        "d": "ball",
+        "s": "ball"
+    },
+    {
+        "t": "ballar",
+        "d": "ballar",
+        "s": "ballar"
+    },
+    {
+        "t": "banana",
+        "d": "banana",
+        "s": "banana"
+    },
+    {
+        "t": "banc",
+        "d": "banc",
+        "s": "banc"
+    },
+    {
+        "t": "banda",
+        "d": "banda",
+        "s": "banda"
+    },
+    {
+        "t": "bany",
+        "d": "bany",
+        "s": "bany"
+    },
+    {
+        "t": "banya",
+        "d": "banya",
+        "s": "banya"
+    },
+    {
+        "t": "banyar",
+        "d": "banyar",
+        "s": "banyar"
+    },
+    {
+        "t": "barallar-se",
+        "d": "barallar-se",
+        "s": "barallar-se"
+    },
+    {
+        "t": "barat_|_barata",
+        "d": "barat <span class=\"no-bold\">|<\/span> barata",
+        "s": "barat | barata"
+    },
+    {
+        "t": "barba",
+        "d": "barba",
+        "s": "barba"
+    },
+    {
+        "t": "barca",
+        "d": "barca",
+        "s": "barca"
+    },
+    {
+        "t": "barrejar",
+        "d": "barrejar",
+        "s": "barrejar"
+    },
+    {
+        "t": "barri",
+        "d": "barri",
+        "s": "barri"
+    },
+    {
+        "t": "bassa",
+        "d": "bassa",
+        "s": "bassa"
+    },
+    {
+        "t": "bastar",
+        "d": "bastar",
+        "s": "bastar"
+    },
+    {
+        "t": "bastó",
+        "d": "bastó",
+        "s": "basto"
+    },
+    {
+        "t": "bé",
+        "d": "bé",
+        "s": "be"
+    },
+    {
+        "t": "bell_|_bella",
+        "d": "bell <span class=\"no-bold\">|<\/span> bella",
+        "s": "bell | bella"
+    },
+    {
+        "t": "bellugar",
+        "d": "bellugar",
+        "s": "bellugar"
+    },
+    {
+        "t": "benvolgut_|_benvolguda",
+        "d": "benvolgut <span class=\"no-bold\">|<\/span> benvolguda",
+        "s": "benvolgut | benvolguda"
+    },
+    {
+        "t": "benzina",
+        "d": "benzina",
+        "s": "benzina"
+    },
+    {
+        "t": "berenar",
+        "d": "berenar",
+        "s": "berenar"
+    },
+    {
+        "t": "bèstia",
+        "d": "bèstia",
+        "s": "bestia"
+    },
+    {
+        "t": "beure",
+        "d": "beure",
+        "s": "beure"
+    },
+    {
+        "t": "bicicleta",
+        "d": "bicicleta",
+        "s": "bicicleta"
+    },
+    {
+        "t": "bisbe",
+        "d": "bisbe",
+        "s": "bisbe"
+    },
+    {
+        "t": "bitllet",
+        "d": "bitllet",
+        "s": "bitllet"
+    },
+    {
+        "t": "blanc_|_blanca",
+        "d": "blanc <span class=\"no-bold\">|<\/span> blanca",
+        "s": "blanc | blanca"
+    },
+    {
+        "t": "blat",
+        "d": "blat",
+        "s": "blat"
+    },
+    {
+        "t": "blau_|_blava",
+        "d": "blau <span class=\"no-bold\">|<\/span> blava",
+        "s": "blau | blava"
+    },
+    {
+        "t": "bo_|_bona",
+        "d": "bo <span class=\"no-bold\">|<\/span> bona",
+        "s": "bo | bona"
+    },
+    {
+        "t": "boca",
+        "d": "boca",
+        "s": "boca"
+    },
+    {
+        "t": "boig_|_boja",
+        "d": "boig <span class=\"no-bold\">|<\/span> boja",
+        "s": "boig | boja"
+    },
+    {
+        "t": "boira",
+        "d": "boira",
+        "s": "boira"
+    },
+    {
+        "t": "bola",
+        "d": "bola",
+        "s": "bola"
+    },
+    {
+        "t": "bolet",
+        "d": "bolet",
+        "s": "bolet"
+    },
+    {
+        "t": "bonic_|_bonica",
+        "d": "bonic <span class=\"no-bold\">|<\/span> bonica",
+        "s": "bonic | bonica"
+    },
+    {
+        "t": "bosc",
+        "d": "bosc",
+        "s": "bosc"
+    },
+    {
+        "t": "bossa",
+        "d": "bossa",
+        "s": "bossa"
+    },
+    {
+        "t": "bota",
+        "d": "bota",
+        "s": "bota"
+    },
+    {
+        "t": "botella",
+        "d": "botella",
+        "s": "botella"
+    },
+    {
+        "t": "botifarra",
+        "d": "botifarra",
+        "s": "botifarra"
+    },
+    {
+        "t": "botiga",
+        "d": "botiga",
+        "s": "botiga"
+    },
+    {
+        "t": "bou",
+        "d": "bou",
+        "s": "bou"
+    },
+    {
+        "t": "braç",
+        "d": "braç",
+        "s": "braç"
+    },
+    {
+        "t": "branca",
+        "d": "branca",
+        "s": "branca"
+    },
+    {
+        "t": "brillar",
+        "d": "brillar",
+        "s": "brillar"
+    },
+    {
+        "t": "brotar",
+        "d": "brotar",
+        "s": "brotar"
+    },
+    {
+        "t": "brut_|_bruta",
+        "d": "brut <span class=\"no-bold\">|<\/span> bruta",
+        "s": "brut | bruta"
+    },
+    {
+        "t": "budells",
+        "d": "budells",
+        "s": "budells"
+    },
+    {
+        "t": "bufar",
+        "d": "bufar",
+        "s": "bufar"
+    },
+    {
+        "t": "buidar",
+        "d": "buidar",
+        "s": "buidar"
+    },
+    {
+        "t": "bullir_(o_bollir)",
+        "d": "bullir <span class=\"no-bold\">(o<\/span> bollir<span class=\"no-bold\">)<\/span>",
+        "s": "bullir (o bollir)"
+    },
+    {
+        "t": "burro",
+        "d": "burro",
+        "s": "burro"
+    },
+    {
+        "t": "buscar",
+        "d": "buscar",
+        "s": "buscar"
+    },
+    {
+        "t": "bústia",
+        "d": "bústia",
+        "s": "bustia"
+    },
+    {
+        "t": "cabell",
+        "d": "cabell",
+        "s": "cabell"
+    },
+    {
+        "t": "cabra",
+        "d": "cabra",
+        "s": "cabra"
+    },
+    {
+        "t": "cabre",
+        "d": "cabre",
+        "s": "cabre"
+    },
+    {
+        "t": "caçar",
+        "d": "caçar",
+        "s": "caçar"
+    },
+    {
+        "t": "cadascun_|_cadascuna_(o_cadascú_|_cadascuna)",
+        "d": "cadascun <span class=\"no-bold\">|<\/span> cadascuna <span class=\"no-bold\">(o<\/span> cadascú <span class=\"no-bold\">|<\/span> cadascuna<span class=\"no-bold\">)<\/span>",
+        "s": "cadascun | cadascuna (o cadascu | cadascuna)"
+    },
+    {
+        "t": "cadira",
+        "d": "cadira",
+        "s": "cadira"
+    },
+    {
+        "t": "cafè_(o_café)",
+        "d": "cafè <span class=\"no-bold\">(o<\/span> café<span class=\"no-bold\">)<\/span>",
+        "s": "cafe (o cafe)"
+    },
+    {
+        "t": "cagar",
+        "d": "cagar",
+        "s": "cagar"
+    },
+    {
+        "t": "caixa",
+        "d": "caixa",
+        "s": "caixa"
+    },
+    {
+        "t": "caixó",
+        "d": "caixó",
+        "s": "caixo"
+    },
+    {
+        "t": "calaix",
+        "d": "calaix",
+        "s": "calaix"
+    },
+    {
+        "t": "caldre_(o_caler)",
+        "d": "caldre <span class=\"no-bold\">(o<\/span> caler<span class=\"no-bold\">)<\/span>",
+        "s": "caldre (o caler)"
+    },
+    {
+        "t": "calent_|_calenta",
+        "d": "calent <span class=\"no-bold\">|<\/span> calenta",
+        "s": "calent | calenta"
+    },
+    {
+        "t": "calfar",
+        "d": "calfar",
+        "s": "calfar"
+    },
+    {
+        "t": "callar",
+        "d": "callar",
+        "s": "callar"
+    },
+    {
+        "t": "calor",
+        "d": "calor",
+        "s": "calor"
+    },
+    {
+        "t": "cama",
+        "d": "cama",
+        "s": "cama"
+    },
+    {
+        "t": "cambra",
+        "d": "cambra",
+        "s": "cambra"
+    },
+    {
+        "t": "camí",
+        "d": "camí",
+        "s": "cami"
+    },
+    {
+        "t": "caminar",
+        "d": "caminar",
+        "s": "caminar"
+    },
+    {
+        "t": "camió",
+        "d": "camió",
+        "s": "camio"
+    },
+    {
+        "t": "camp",
+        "d": "camp",
+        "s": "camp"
+    },
+    {
+        "t": "cansar",
+        "d": "cansar",
+        "s": "cansar"
+    },
+    {
+        "t": "cansat_|_cansada",
+        "d": "cansat <span class=\"no-bold\">|<\/span> cansada",
+        "s": "cansat | cansada"
+    },
+    {
+        "t": "cantar",
+        "d": "cantar",
+        "s": "cantar"
+    },
+    {
+        "t": "cantó",
+        "d": "cantó",
+        "s": "canto"
+    },
+    {
+        "t": "canvi",
+        "d": "canvi",
+        "s": "canvi"
+    },
+    {
+        "t": "canviar",
+        "d": "canviar",
+        "s": "canviar"
+    },
+    {
+        "t": "cap",
+        "d": "cap",
+        "s": "cap"
+    },
+    {
+        "t": "capaç",
+        "d": "capaç",
+        "s": "capaç"
+    },
+    {
+        "t": "capsa",
+        "d": "capsa",
+        "s": "capsa"
+    },
+    {
+        "t": "car_|_cara",
+        "d": "car <span class=\"no-bold\">|<\/span> cara",
+        "s": "car | cara"
+    },
+    {
+        "t": "cara",
+        "d": "cara",
+        "s": "cara"
+    },
+    {
+        "t": "caràcter",
+        "d": "caràcter",
+        "s": "caracter"
+    },
+    {
+        "t": "carn",
+        "d": "carn",
+        "s": "carn"
+    },
+    {
+        "t": "carregar",
+        "d": "carregar",
+        "s": "carregar"
+    },
+    {
+        "t": "carrer",
+        "d": "carrer",
+        "s": "carrer"
+    },
+    {
+        "t": "carrera",
+        "d": "carrera",
+        "s": "carrera"
+    },
+    {
+        "t": "carretera",
+        "d": "carretera",
+        "s": "carretera"
+    },
+    {
+        "t": "carta",
+        "d": "carta",
+        "s": "carta"
+    },
+    {
+        "t": "cas",
+        "d": "cas",
+        "s": "cas"
+    },
+    {
+        "t": "casa",
+        "d": "casa",
+        "s": "casa"
+    },
+    {
+        "t": "casar",
+        "d": "casar",
+        "s": "casar"
+    },
+    {
+        "t": "castell",
+        "d": "castell",
+        "s": "castell"
+    },
+    {
+        "t": "castigar",
+        "d": "castigar",
+        "s": "castigar"
+    },
+    {
+        "t": "caure",
+        "d": "caure",
+        "s": "caure"
+    },
+    {
+        "t": "causa",
+        "d": "causa",
+        "s": "causa"
+    },
+    {
+        "t": "cavall",
+        "d": "cavall",
+        "s": "cavall"
+    },
+    {
+        "t": "cavar",
+        "d": "cavar",
+        "s": "cavar"
+    },
+    {
+        "t": "ceba",
+        "d": "ceba",
+        "s": "ceba"
+    },
+    {
+        "t": "cec_|_cega",
+        "d": "cec <span class=\"no-bold\">|<\/span> cega",
+        "s": "cec | cega"
+    },
+    {
+        "t": "cel",
+        "d": "cel",
+        "s": "cel"
+    },
+    {
+        "t": "cendra",
+        "d": "cendra",
+        "s": "cendra"
+    },
+    {
+        "t": "cèntim",
+        "d": "cèntim",
+        "s": "centim"
+    },
+    {
+        "t": "centre",
+        "d": "centre",
+        "s": "centre"
+    },
+    {
+        "t": "cercar",
+        "d": "cercar",
+        "s": "cercar"
+    },
+    {
+        "t": "cert_|_certa",
+        "d": "cert <span class=\"no-bold\">|<\/span> certa",
+        "s": "cert | certa"
+    },
+    {
+        "t": "cervesa",
+        "d": "cervesa",
+        "s": "cervesa"
+    },
+    {
+        "t": "cinema_(o_cine)",
+        "d": "cinema <span class=\"no-bold\">(o<\/span> cine<span class=\"no-bold\">)<\/span>",
+        "s": "cinema (o cine)"
+    },
+    {
+        "t": "ciutat",
+        "d": "ciutat",
+        "s": "ciutat"
+    },
+    {
+        "t": "clar_|_clara",
+        "d": "clar <span class=\"no-bold\">|<\/span> clara",
+        "s": "clar | clara"
+    },
+    {
+        "t": "clau",
+        "d": "clau",
+        "s": "clau"
+    },
+    {
+        "t": "clavar",
+        "d": "clavar",
+        "s": "clavar"
+    },
+    {
+        "t": "client",
+        "d": "client",
+        "s": "client"
+    },
+    {
+        "t": "clima",
+        "d": "clima",
+        "s": "clima"
+    },
+    {
+        "t": "cobrir",
+        "d": "cobrir",
+        "s": "cobrir"
+    },
+    {
+        "t": "coix_|_coixa",
+        "d": "coix <span class=\"no-bold\">|<\/span> coixa",
+        "s": "coix | coixa"
+    },
+    {
+        "t": "coixí",
+        "d": "coixí",
+        "s": "coixi"
+    },
+    {
+        "t": "còlera",
+        "d": "còlera",
+        "s": "colera"
+    },
+    {
+        "t": "coll",
+        "d": "coll",
+        "s": "coll"
+    },
+    {
+        "t": "col·legi",
+        "d": "col·legi",
+        "s": "col·legi"
+    },
+    {
+        "t": "color",
+        "d": "color",
+        "s": "color"
+    },
+    {
+        "t": "colp",
+        "d": "colp",
+        "s": "colp"
+    },
+    {
+        "t": "començar",
+        "d": "començar",
+        "s": "començar"
+    },
+    {
+        "t": "comerç",
+        "d": "comerç",
+        "s": "comerç"
+    },
+    {
+        "t": "còmode_|_còmoda",
+        "d": "còmode <span class=\"no-bold\">|<\/span> còmoda",
+        "s": "comode | comoda"
+    },
+    {
+        "t": "company",
+        "d": "company",
+        "s": "company"
+    },
+    {
+        "t": "compassió",
+        "d": "compassió",
+        "s": "compassio"
+    },
+    {
+        "t": "comprar",
+        "d": "comprar",
+        "s": "comprar"
+    },
+    {
+        "t": "comprendre",
+        "d": "comprendre",
+        "s": "comprendre"
+    },
+    {
+        "t": "comptar",
+        "d": "comptar",
+        "s": "comptar"
+    },
+    {
+        "t": "compte",
+        "d": "compte",
+        "s": "compte"
+    },
+    {
+        "t": "conduir",
+        "d": "conduir",
+        "s": "conduir"
+    },
+    {
+        "t": "coneixement",
+        "d": "coneixement",
+        "s": "coneixement"
+    },
+    {
+        "t": "conèixer_(o_conéixer)",
+        "d": "conèixer <span class=\"no-bold\">(o<\/span> conéixer<span class=\"no-bold\">)<\/span>",
+        "s": "coneixer (o coneixer)"
+    },
+    {
+        "t": "confiança",
+        "d": "confiança",
+        "s": "confiança"
+    },
+    {
+        "t": "consell",
+        "d": "consell",
+        "s": "consell"
+    },
+    {
+        "t": "contacte",
+        "d": "contacte",
+        "s": "contacte"
+    },
+    {
+        "t": "contar",
+        "d": "contar",
+        "s": "contar"
+    },
+    {
+        "t": "content_|_contenta",
+        "d": "content <span class=\"no-bold\">|<\/span> contenta",
+        "s": "content | contenta"
+    },
+    {
+        "t": "contesta",
+        "d": "contesta",
+        "s": "contesta"
+    },
+    {
+        "t": "contestar",
+        "d": "contestar",
+        "s": "contestar"
+    },
+    {
+        "t": "continuar",
+        "d": "continuar",
+        "s": "continuar"
+    },
+    {
+        "t": "contrari_|_contrària",
+        "d": "contrari <span class=\"no-bold\">|<\/span> contrària",
+        "s": "contrari | contraria"
+    },
+    {
+        "t": "cop",
+        "d": "cop",
+        "s": "cop"
+    },
+    {
+        "t": "cor",
+        "d": "cor",
+        "s": "cor"
+    },
+    {
+        "t": "corda",
+        "d": "corda",
+        "s": "corda"
+    },
+    {
+        "t": "corona",
+        "d": "corona",
+        "s": "corona"
+    },
+    {
+        "t": "correcte_|_correcta",
+        "d": "correcte <span class=\"no-bold\">|<\/span> correcta",
+        "s": "correcte | correcta"
+    },
+    {
+        "t": "corregir",
+        "d": "corregir",
+        "s": "corregir"
+    },
+    {
+        "t": "corrent",
+        "d": "corrent",
+        "s": "corrent"
+    },
+    {
+        "t": "córrer",
+        "d": "córrer",
+        "s": "correr"
+    },
+    {
+        "t": "cos",
+        "d": "cos",
+        "s": "cos"
+    },
+    {
+        "t": "cosa",
+        "d": "cosa",
+        "s": "cosa"
+    },
+    {
+        "t": "cosí",
+        "d": "cosí",
+        "s": "cosi"
+    },
+    {
+        "t": "cosir",
+        "d": "cosir",
+        "s": "cosir"
+    },
+    {
+        "t": "costa",
+        "d": "costa",
+        "s": "costa"
+    },
+    {
+        "t": "costar",
+        "d": "costar",
+        "s": "costar"
+    },
+    {
+        "t": "costat",
+        "d": "costat",
+        "s": "costat"
+    },
+    {
+        "t": "costum",
+        "d": "costum",
+        "s": "costum"
+    },
+    {
+        "t": "cotxe",
+        "d": "cotxe",
+        "s": "cotxe"
+    },
+    {
+        "t": "coure",
+        "d": "coure",
+        "s": "coure"
+    },
+    {
+        "t": "cova",
+        "d": "cova",
+        "s": "cova"
+    },
+    {
+        "t": "covard_|_covarda",
+        "d": "covard <span class=\"no-bold\">|<\/span> covarda",
+        "s": "covard | covarda"
+    },
+    {
+        "t": "crear",
+        "d": "crear",
+        "s": "crear"
+    },
+    {
+        "t": "créixer",
+        "d": "créixer",
+        "s": "creixer"
+    },
+    {
+        "t": "cremar",
+        "d": "cremar",
+        "s": "cremar"
+    },
+    {
+        "t": "creu",
+        "d": "creu",
+        "s": "creu"
+    },
+    {
+        "t": "creure",
+        "d": "creure",
+        "s": "creure"
+    },
+    {
+        "t": "cridar",
+        "d": "cridar",
+        "s": "cridar"
+    },
+    {
+        "t": "crisi",
+        "d": "crisi",
+        "s": "crisi"
+    },
+    {
+        "t": "criticar",
+        "d": "criticar",
+        "s": "criticar"
+    },
+    {
+        "t": "cua",
+        "d": "cua",
+        "s": "cua"
+    },
+    {
+        "t": "cuc",
+        "d": "cuc",
+        "s": "cuc"
+    },
+    {
+        "t": "cuina",
+        "d": "cuina",
+        "s": "cuina"
+    },
+    {
+        "t": "cul",
+        "d": "cul",
+        "s": "cul"
+    },
+    {
+        "t": "cullera",
+        "d": "cullera",
+        "s": "cullera"
+    },
+    {
+        "t": "cura",
+        "d": "cura",
+        "s": "cura"
+    },
+    {
+        "t": "curar",
+        "d": "curar",
+        "s": "curar"
+    },
+    {
+        "t": "curiós_|_curiosa",
+        "d": "curiós <span class=\"no-bold\">|<\/span> curiosa",
+        "s": "curios | curiosa"
+    },
+    {
+        "t": "curt_|_curta",
+        "d": "curt <span class=\"no-bold\">|<\/span> curta",
+        "s": "curt | curta"
+    },
+    {
+        "t": "dacsa",
+        "d": "dacsa",
+        "s": "dacsa"
+    },
+    {
+        "t": "dalt",
+        "d": "dalt",
+        "s": "dalt"
+    },
+    {
+        "t": "darrer_|_darrera",
+        "d": "darrer <span class=\"no-bold\">|<\/span> darrera",
+        "s": "darrer | darrera"
+    },
+    {
+        "t": "darrere",
+        "d": "darrere",
+        "s": "darrere"
+    },
+    {
+        "t": "davant",
+        "d": "davant",
+        "s": "davant"
+    },
+    {
+        "t": "decidir",
+        "d": "decidir",
+        "s": "decidir"
+    },
+    {
+        "t": "defecte",
+        "d": "defecte",
+        "s": "defecte"
+    },
+    {
+        "t": "deixar",
+        "d": "deixar",
+        "s": "deixar"
+    },
+    {
+        "t": "demà",
+        "d": "demà",
+        "s": "dema"
+    },
+    {
+        "t": "demanar",
+        "d": "demanar",
+        "s": "demanar"
+    },
+    {
+        "t": "dènou_(o_denou)",
+        "d": "dènou <span class=\"no-bold\">(o<\/span> denou<span class=\"no-bold\">)<\/span>",
+        "s": "denou (o denou)"
+    },
+    {
+        "t": "dent",
+        "d": "dent",
+        "s": "dent"
+    },
+    {
+        "t": "dependre",
+        "d": "dependre",
+        "s": "dependre"
+    },
+    {
+        "t": "derrota",
+        "d": "derrota",
+        "s": "derrota"
+    },
+    {
+        "t": "desaparèixer_(o_desaparéixer)",
+        "d": "desaparèixer <span class=\"no-bold\">(o<\/span> desaparéixer<span class=\"no-bold\">)<\/span>",
+        "s": "desapareixer (o desapareixer)"
+    },
+    {
+        "t": "descobrir",
+        "d": "descobrir",
+        "s": "descobrir"
+    },
+    {
+        "t": "descuidar",
+        "d": "descuidar",
+        "s": "descuidar"
+    },
+    {
+        "t": "desembre",
+        "d": "desembre",
+        "s": "desembre"
+    },
+    {
+        "t": "desert",
+        "d": "desert",
+        "s": "desert"
+    },
+    {
+        "t": "desfogar-se",
+        "d": "desfogar-se",
+        "s": "desfogar-se"
+    },
+    {
+        "t": "desgràcia",
+        "d": "desgràcia",
+        "s": "desgracia"
+    },
+    {
+        "t": "desgraciat_|_desgraciada",
+        "d": "desgraciat <span class=\"no-bold\">|<\/span> desgraciada",
+        "s": "desgraciat | desgraciada"
+    },
+    {
+        "t": "desig",
+        "d": "desig",
+        "s": "desig"
+    },
+    {
+        "t": "desitjar",
+        "d": "desitjar",
+        "s": "desitjar"
+    },
+    {
+        "t": "deslligar",
+        "d": "deslligar",
+        "s": "deslligar"
+    },
+    {
+        "t": "desmai",
+        "d": "desmai",
+        "s": "desmai"
+    },
+    {
+        "t": "desorientar",
+        "d": "desorientar",
+        "s": "desorientar"
+    },
+    {
+        "t": "despertar",
+        "d": "despertar",
+        "s": "despertar"
+    },
+    {
+        "t": "despullar",
+        "d": "despullar",
+        "s": "despullar"
+    },
+    {
+        "t": "dèsset_(o_desset)",
+        "d": "dèsset <span class=\"no-bold\">(o<\/span> desset<span class=\"no-bold\">)<\/span>",
+        "s": "desset (o desset)"
+    },
+    {
+        "t": "destruir",
+        "d": "destruir",
+        "s": "destruir"
+    },
+    {
+        "t": "detall",
+        "d": "detall",
+        "s": "detall"
+    },
+    {
+        "t": "deu",
+        "d": "deu",
+        "s": "deu"
+    },
+    {
+        "t": "déu",
+        "d": "déu",
+        "s": "deu"
+    },
+    {
+        "t": "deure",
+        "d": "deure",
+        "s": "deure"
+    },
+    {
+        "t": "devuit",
+        "d": "devuit",
+        "s": "devuit"
+    },
+    {
+        "t": "dia",
+        "d": "dia",
+        "s": "dia"
+    },
+    {
+        "t": "diari_|diària",
+        "d": "diari <span class=\"no-bold\">|<\/span>diària",
+        "s": "diari |diaria"
+    },
+    {
+        "t": "diferent",
+        "d": "diferent",
+        "s": "diferent"
+    },
+    {
+        "t": "difícil",
+        "d": "difícil",
+        "s": "dificil"
+    },
+    {
+        "t": "díhuit",
+        "d": "díhuit",
+        "s": "dihuit"
+    },
+    {
+        "t": "dijous",
+        "d": "dijous",
+        "s": "dijous"
+    },
+    {
+        "t": "dilluns",
+        "d": "dilluns",
+        "s": "dilluns"
+    },
+    {
+        "t": "dimarts",
+        "d": "dimarts",
+        "s": "dimarts"
+    },
+    {
+        "t": "dimecres",
+        "d": "dimecres",
+        "s": "dimecres"
+    },
+    {
+        "t": "dimoni",
+        "d": "dimoni",
+        "s": "dimoni"
+    },
+    {
+        "t": "dinar",
+        "d": "dinar",
+        "s": "dinar"
+    },
+    {
+        "t": "diner",
+        "d": "diner",
+        "s": "diner"
+    },
+    {
+        "t": "dinou",
+        "d": "dinou",
+        "s": "dinou"
+    },
+    {
+        "t": "dipòsit_(o_depòsit)",
+        "d": "dipòsit <span class=\"no-bold\">(o<\/span> depòsit<span class=\"no-bold\">)<\/span>",
+        "s": "diposit (o deposit)"
+    },
+    {
+        "t": "dir",
+        "d": "dir",
+        "s": "dir"
+    },
+    {
+        "t": "disbarat",
+        "d": "disbarat",
+        "s": "disbarat"
+    },
+    {
+        "t": "dissabte",
+        "d": "dissabte",
+        "s": "dissabte"
+    },
+    {
+        "t": "disset",
+        "d": "disset",
+        "s": "disset"
+    },
+    {
+        "t": "distància",
+        "d": "distància",
+        "s": "distancia"
+    },
+    {
+        "t": "distreure_(o_distraure)",
+        "d": "distreure <span class=\"no-bold\">(o<\/span> distraure<span class=\"no-bold\">)<\/span>",
+        "s": "distreure (o distraure)"
+    },
+    {
+        "t": "dit",
+        "d": "dit",
+        "s": "dit"
+    },
+    {
+        "t": "diumenge",
+        "d": "diumenge",
+        "s": "diumenge"
+    },
+    {
+        "t": "divendres",
+        "d": "divendres",
+        "s": "divendres"
+    },
+    {
+        "t": "divertir",
+        "d": "divertir",
+        "s": "divertir"
+    },
+    {
+        "t": "dividir",
+        "d": "dividir",
+        "s": "dividir"
+    },
+    {
+        "t": "divuit",
+        "d": "divuit",
+        "s": "divuit"
+    },
+    {
+        "t": "dolç_|_dolça",
+        "d": "dolç <span class=\"no-bold\">|<\/span> dolça",
+        "s": "dolç | dolça"
+    },
+    {
+        "t": "dolent_|_dolenta",
+        "d": "dolent <span class=\"no-bold\">|<\/span> dolenta",
+        "s": "dolent | dolenta"
+    },
+    {
+        "t": "dominar",
+        "d": "dominar",
+        "s": "dominar"
+    },
+    {
+        "t": "dona",
+        "d": "dona",
+        "s": "dona"
+    },
+    {
+        "t": "donar",
+        "d": "donar",
+        "s": "donar"
+    },
+    {
+        "t": "dormir",
+        "d": "dormir",
+        "s": "dormir"
+    },
+    {
+        "t": "dret",
+        "d": "dret",
+        "s": "dret"
+    },
+    {
+        "t": "dubtar",
+        "d": "dubtar",
+        "s": "dubtar"
+    },
+    {
+        "t": "dubte",
+        "d": "dubte",
+        "s": "dubte"
+    },
+    {
+        "t": "dur_|_dura",
+        "d": "dur <span class=\"no-bold\">|<\/span> dura",
+        "s": "dur | dura"
+    },
+    {
+        "t": "durar",
+        "d": "durar",
+        "s": "durar"
+    },
+    {
+        "t": "edat",
+        "d": "edat",
+        "s": "edat"
+    },
+    {
+        "t": "edifici",
+        "d": "edifici",
+        "s": "edifici"
+    },
+    {
+        "t": "educar",
+        "d": "educar",
+        "s": "educar"
+    },
+    {
+        "t": "efecte",
+        "d": "efecte",
+        "s": "efecte"
+    },
+    {
+        "t": "eina",
+        "d": "eina",
+        "s": "eina"
+    },
+    {
+        "t": "eixir",
+        "d": "eixir",
+        "s": "eixir"
+    },
+    {
+        "t": "eixugar",
+        "d": "eixugar",
+        "s": "eixugar"
+    },
+    {
+        "t": "eixut_|_eixuta",
+        "d": "eixut <span class=\"no-bold\">|<\/span> eixuta",
+        "s": "eixut | eixuta"
+    },
+    {
+        "t": "electricitat",
+        "d": "electricitat",
+        "s": "electricitat"
+    },
+    {
+        "t": "embriagar",
+        "d": "embriagar",
+        "s": "embriagar"
+    },
+    {
+        "t": "emoció",
+        "d": "emoció",
+        "s": "emocio"
+    },
+    {
+        "t": "empassar_(-se)",
+        "d": "empassar <span class=\"no-bold\">(-se)<\/span>",
+        "s": "empassar (-se)"
+    },
+    {
+        "t": "empènyer_(o_empényer)",
+        "d": "empènyer <span class=\"no-bold\">(o<\/span> empényer<span class=\"no-bold\">)<\/span>",
+        "s": "empenyer (o empenyer)"
+    },
+    {
+        "t": "emportar-se",
+        "d": "emportar-se",
+        "s": "emportar-se"
+    },
+    {
+        "t": "emprar",
+        "d": "emprar",
+        "s": "emprar"
+    },
+    {
+        "t": "encendre",
+        "d": "encendre",
+        "s": "encendre"
+    },
+    {
+        "t": "endur-se",
+        "d": "endur-se",
+        "s": "endur-se"
+    },
+    {
+        "t": "enemic",
+        "d": "enemic",
+        "s": "enemic"
+    },
+    {
+        "t": "enganyar",
+        "d": "enganyar",
+        "s": "enganyar"
+    },
+    {
+        "t": "enguany",
+        "d": "enguany",
+        "s": "enguany"
+    },
+    {
+        "t": "ensenyar",
+        "d": "ensenyar",
+        "s": "ensenyar"
+    },
+    {
+        "t": "entendre",
+        "d": "entendre",
+        "s": "entendre"
+    },
+    {
+        "t": "enterrar",
+        "d": "enterrar",
+        "s": "enterrar"
+    },
+    {
+        "t": "entrada",
+        "d": "entrada",
+        "s": "entrada"
+    },
+    {
+        "t": "entrar",
+        "d": "entrar",
+        "s": "entrar"
+    },
+    {
+        "t": "enveja",
+        "d": "enveja",
+        "s": "enveja"
+    },
+    {
+        "t": "enviar",
+        "d": "enviar",
+        "s": "enviar"
+    },
+    {
+        "t": "equilibri",
+        "d": "equilibri",
+        "s": "equilibri"
+    },
+    {
+        "t": "error",
+        "d": "error",
+        "s": "error"
+    },
+    {
+        "t": "escala",
+        "d": "escala",
+        "s": "escala"
+    },
+    {
+        "t": "escalfar",
+        "d": "escalfar",
+        "s": "escalfar"
+    },
+    {
+        "t": "escanyar",
+        "d": "escanyar",
+        "s": "escanyar"
+    },
+    {
+        "t": "escapar",
+        "d": "escapar",
+        "s": "escapar"
+    },
+    {
+        "t": "escola",
+        "d": "escola",
+        "s": "escola"
+    },
+    {
+        "t": "escollir",
+        "d": "escollir",
+        "s": "escollir"
+    },
+    {
+        "t": "escoltar",
+        "d": "escoltar",
+        "s": "escoltar"
+    },
+    {
+        "t": "escombra",
+        "d": "escombra",
+        "s": "escombra"
+    },
+    {
+        "t": "escopir",
+        "d": "escopir",
+        "s": "escopir"
+    },
+    {
+        "t": "escorça",
+        "d": "escorça",
+        "s": "escorça"
+    },
+    {
+        "t": "escriptor",
+        "d": "escriptor",
+        "s": "escriptor"
+    },
+    {
+        "t": "escriure",
+        "d": "escriure",
+        "s": "escriure"
+    },
+    {
+        "t": "església",
+        "d": "església",
+        "s": "esglesia"
+    },
+    {
+        "t": "esmorzar",
+        "d": "esmorzar",
+        "s": "esmorzar"
+    },
+    {
+        "t": "espai",
+        "d": "espai",
+        "s": "espai"
+    },
+    {
+        "t": "espantar",
+        "d": "espantar",
+        "s": "espantar"
+    },
+    {
+        "t": "espatllar",
+        "d": "espatllar",
+        "s": "espatllar"
+    },
+    {
+        "t": "espentar",
+        "d": "espentar",
+        "s": "espentar"
+    },
+    {
+        "t": "esperar",
+        "d": "esperar",
+        "s": "esperar"
+    },
+    {
+        "t": "esperit",
+        "d": "esperit",
+        "s": "esperit"
+    },
+    {
+        "t": "espès_(o_espés)_|_espessa",
+        "d": "espès <span class=\"no-bold\">(o<\/span> espés<span class=\"no-bold\">)<\/span> <span class=\"no-bold\">|<\/span> espessa",
+        "s": "espes (o espes) | espessa"
+    },
+    {
+        "t": "esquena",
+        "d": "esquena",
+        "s": "esquena"
+    },
+    {
+        "t": "esquerre_|_esquerra",
+        "d": "esquerre <span class=\"no-bold\">|<\/span> esquerra",
+        "s": "esquerre | esquerra"
+    },
+    {
+        "t": "ésser",
+        "d": "ésser",
+        "s": "esser"
+    },
+    {
+        "t": "est",
+        "d": "est",
+        "s": "est"
+    },
+    {
+        "t": "estable",
+        "d": "estable",
+        "s": "estable"
+    },
+    {
+        "t": "estació",
+        "d": "estació",
+        "s": "estacio"
+    },
+    {
+        "t": "estar",
+        "d": "estar",
+        "s": "estar"
+    },
+    {
+        "t": "estat",
+        "d": "estat",
+        "s": "estat"
+    },
+    {
+        "t": "estel",
+        "d": "estel",
+        "s": "estel"
+    },
+    {
+        "t": "estil",
+        "d": "estil",
+        "s": "estil"
+    },
+    {
+        "t": "estimar",
+        "d": "estimar",
+        "s": "estimar"
+    },
+    {
+        "t": "estimat_|_estimada",
+        "d": "estimat <span class=\"no-bold\">|<\/span> estimada",
+        "s": "estimat | estimada"
+    },
+    {
+        "t": "estirar",
+        "d": "estirar",
+        "s": "estirar"
+    },
+    {
+        "t": "estiu",
+        "d": "estiu",
+        "s": "estiu"
+    },
+    {
+        "t": "estranger_|_estrangera",
+        "d": "estranger <span class=\"no-bold\">|<\/span> estrangera",
+        "s": "estranger | estrangera"
+    },
+    {
+        "t": "estrany_|_estranya",
+        "d": "estrany <span class=\"no-bold\">|<\/span> estranya",
+        "s": "estrany | estranya"
+    },
+    {
+        "t": "estranyar",
+        "d": "estranyar",
+        "s": "estranyar"
+    },
+    {
+        "t": "estrella",
+        "d": "estrella",
+        "s": "estrella"
+    },
+    {
+        "t": "estrènyer_[o_estrènyer(-se)]",
+        "d": "estrènyer <span class=\"no-bold\">[o<\/span> estrènyer<span class=\"no-bold\">(-se)<\/span><span class=\"no-bold\">]<\/span>",
+        "s": "estrenyer [o estrenyer(-se)]"
+    },
+    {
+        "t": "estret_|_estreta",
+        "d": "estret <span class=\"no-bold\">|<\/span> estreta",
+        "s": "estret | estreta"
+    },
+    {
+        "t": "estudi",
+        "d": "estudi",
+        "s": "estudi"
+    },
+    {
+        "t": "estudiar",
+        "d": "estudiar",
+        "s": "estudiar"
+    },
+    {
+        "t": "etcètera",
+        "d": "etcètera",
+        "s": "etcetera"
+    },
+    {
+        "t": "euro",
+        "d": "euro",
+        "s": "euro"
+    },
+    {
+        "t": "exemple",
+        "d": "exemple",
+        "s": "exemple"
+    },
+    {
+        "t": "exercici",
+        "d": "exercici",
+        "s": "exercici"
+    },
+    {
+        "t": "exèrcit",
+        "d": "exèrcit",
+        "s": "exercit"
+    },
+    {
+        "t": "existir",
+        "d": "existir",
+        "s": "existir"
+    },
+    {
+        "t": "experiència",
+        "d": "experiència",
+        "s": "experiencia"
+    },
+    {
+        "t": "explicar",
+        "d": "explicar",
+        "s": "explicar"
+    },
+    {
+        "t": "expressar",
+        "d": "expressar",
+        "s": "expressar"
+    },
+    {
+        "t": "fàbrica",
+        "d": "fàbrica",
+        "s": "fabrica"
+    },
+    {
+        "t": "fàcil",
+        "d": "fàcil",
+        "s": "facil"
+    },
+    {
+        "t": "falda",
+        "d": "falda",
+        "s": "falda"
+    },
+    {
+        "t": "faltar",
+        "d": "faltar",
+        "s": "faltar"
+    },
+    {
+        "t": "fam",
+        "d": "fam",
+        "s": "fam"
+    },
+    {
+        "t": "fama",
+        "d": "fama",
+        "s": "fama"
+    },
+    {
+        "t": "família",
+        "d": "família",
+        "s": "familia"
+    },
+    {
+        "t": "farina",
+        "d": "farina",
+        "s": "farina"
+    },
+    {
+        "t": "fart_|_farta",
+        "d": "fart <span class=\"no-bold\">|<\/span> farta",
+        "s": "fart | farta"
+    },
+    {
+        "t": "fàstic",
+        "d": "fàstic",
+        "s": "fastic"
+    },
+    {
+        "t": "fatalitat",
+        "d": "fatalitat",
+        "s": "fatalitat"
+    },
+    {
+        "t": "favor",
+        "d": "favor",
+        "s": "favor"
+    },
+    {
+        "t": "feble",
+        "d": "feble",
+        "s": "feble"
+    },
+    {
+        "t": "febre",
+        "d": "febre",
+        "s": "febre"
+    },
+    {
+        "t": "febrer",
+        "d": "febrer",
+        "s": "febrer"
+    },
+    {
+        "t": "feina",
+        "d": "feina",
+        "s": "feina"
+    },
+    {
+        "t": "femení_|_femenina",
+        "d": "femení <span class=\"no-bold\">|<\/span> femenina",
+        "s": "femeni | femenina"
+    },
+    {
+        "t": "fer",
+        "d": "fer",
+        "s": "fer"
+    },
+    {
+        "t": "ferida",
+        "d": "ferida",
+        "s": "ferida"
+    },
+    {
+        "t": "ferir",
+        "d": "ferir",
+        "s": "ferir"
+    },
+    {
+        "t": "ferramenta",
+        "d": "ferramenta",
+        "s": "ferramenta"
+    },
+    {
+        "t": "ferro",
+        "d": "ferro",
+        "s": "ferro"
+    },
+    {
+        "t": "festa",
+        "d": "festa",
+        "s": "festa"
+    },
+    {
+        "t": "fet",
+        "d": "fet",
+        "s": "fet"
+    },
+    {
+        "t": "fetge",
+        "d": "fetge",
+        "s": "fetge"
+    },
+    {
+        "t": "fi",
+        "d": "fi",
+        "s": "fi"
+    },
+    {
+        "t": "fiar",
+        "d": "fiar",
+        "s": "fiar"
+    },
+    {
+        "t": "ficar",
+        "d": "ficar",
+        "s": "ficar"
+    },
+    {
+        "t": "figa",
+        "d": "figa",
+        "s": "figa"
+    },
+    {
+        "t": "figura",
+        "d": "figura",
+        "s": "figura"
+    },
+    {
+        "t": "fil",
+        "d": "fil",
+        "s": "fil"
+    },
+    {
+        "t": "fill_|_filla",
+        "d": "fill <span class=\"no-bold\">|<\/span> filla",
+        "s": "fill | filla"
+    },
+    {
+        "t": "final",
+        "d": "final",
+        "s": "final"
+    },
+    {
+        "t": "finestra",
+        "d": "finestra",
+        "s": "finestra"
+    },
+    {
+        "t": "flac_|_flaca",
+        "d": "flac <span class=\"no-bold\">|<\/span> flaca",
+        "s": "flac | flaca"
+    },
+    {
+        "t": "flor",
+        "d": "flor",
+        "s": "flor"
+    },
+    {
+        "t": "flotar",
+        "d": "flotar",
+        "s": "flotar"
+    },
+    {
+        "t": "fluir",
+        "d": "fluir",
+        "s": "fluir"
+    },
+    {
+        "t": "fluix_|_fluixa",
+        "d": "fluix <span class=\"no-bold\">|<\/span> fluixa",
+        "s": "fluix | fluixa"
+    },
+    {
+        "t": "foc",
+        "d": "foc",
+        "s": "foc"
+    },
+    {
+        "t": "fons",
+        "d": "fons",
+        "s": "fons"
+    },
+    {
+        "t": "font",
+        "d": "font",
+        "s": "font"
+    },
+    {
+        "t": "forat",
+        "d": "forat",
+        "s": "forat"
+    },
+    {
+        "t": "força",
+        "d": "força",
+        "s": "força"
+    },
+    {
+        "t": "forma",
+        "d": "forma",
+        "s": "forma"
+    },
+    {
+        "t": "fort_|_forta",
+        "d": "fort <span class=\"no-bold\">|<\/span> forta",
+        "s": "fort | forta"
+    },
+    {
+        "t": "fosc_|_fosca",
+        "d": "fosc <span class=\"no-bold\">|<\/span> fosca",
+        "s": "fosc | fosca"
+    },
+    {
+        "t": "fotografia",
+        "d": "fotografia",
+        "s": "fotografia"
+    },
+    {
+        "t": "fotre_[pop.]",
+        "d": "fotre <span class=\"no-bold\">[pop.]<\/span>",
+        "s": "fotre [pop.]"
+    },
+    {
+        "t": "franc_|_franca",
+        "d": "franc <span class=\"no-bold\">|<\/span> franca",
+        "s": "franc | franca"
+    },
+    {
+        "t": "fred_|_freda",
+        "d": "fred <span class=\"no-bold\">|<\/span> freda",
+        "s": "fred | freda"
+    },
+    {
+        "t": "fregar",
+        "d": "fregar",
+        "s": "fregar"
+    },
+    {
+        "t": "fresc_|_fresca",
+        "d": "fresc <span class=\"no-bold\">|<\/span> fresca",
+        "s": "fresc | fresca"
+    },
+    {
+        "t": "front",
+        "d": "front",
+        "s": "front"
+    },
+    {
+        "t": "fruita",
+        "d": "fruita",
+        "s": "fruita"
+    },
+    {
+        "t": "fugir",
+        "d": "fugir",
+        "s": "fugir"
+    },
+    {
+        "t": "full",
+        "d": "full",
+        "s": "full"
+    },
+    {
+        "t": "fulla",
+        "d": "fulla",
+        "s": "fulla"
+    },
+    {
+        "t": "fum",
+        "d": "fum",
+        "s": "fum"
+    },
+    {
+        "t": "funcionar",
+        "d": "funcionar",
+        "s": "funcionar"
+    },
+    {
+        "t": "fusta",
+        "d": "fusta",
+        "s": "fusta"
+    },
+    {
+        "t": "futur_|_futura",
+        "d": "futur <span class=\"no-bold\">|<\/span> futura",
+        "s": "futur | futura"
+    },
+    {
+        "t": "gall",
+        "d": "gall",
+        "s": "gall"
+    },
+    {
+        "t": "gallina",
+        "d": "gallina",
+        "s": "gallina"
+    },
+    {
+        "t": "gas",
+        "d": "gas",
+        "s": "gas"
+    },
+    {
+        "t": "gasolina",
+        "d": "gasolina",
+        "s": "gasolina"
+    },
+    {
+        "t": "gastar",
+        "d": "gastar",
+        "s": "gastar"
+    },
+    {
+        "t": "gat",
+        "d": "gat",
+        "s": "gat"
+    },
+    {
+        "t": "gaudir",
+        "d": "gaudir",
+        "s": "gaudir"
+    },
+    {
+        "t": "gel",
+        "d": "gel",
+        "s": "gel"
+    },
+    {
+        "t": "gelar",
+        "d": "gelar",
+        "s": "gelar"
+    },
+    {
+        "t": "gener",
+        "d": "gener",
+        "s": "gener"
+    },
+    {
+        "t": "general",
+        "d": "general",
+        "s": "general"
+    },
+    {
+        "t": "genoll",
+        "d": "genoll",
+        "s": "genoll"
+    },
+    {
+        "t": "gent",
+        "d": "gent",
+        "s": "gent"
+    },
+    {
+        "t": "germà_|_germana",
+        "d": "germà <span class=\"no-bold\">|<\/span> germana",
+        "s": "germa | germana"
+    },
+    {
+        "t": "girar",
+        "d": "girar",
+        "s": "girar"
+    },
+    {
+        "t": "gitar",
+        "d": "gitar",
+        "s": "gitar"
+    },
+    {
+        "t": "gola",
+        "d": "gola",
+        "s": "gola"
+    },
+    {
+        "t": "gos",
+        "d": "gos",
+        "s": "gos"
+    },
+    {
+        "t": "gosar",
+        "d": "gosar",
+        "s": "gosar"
+    },
+    {
+        "t": "got",
+        "d": "got",
+        "s": "got"
+    },
+    {
+        "t": "govern",
+        "d": "govern",
+        "s": "govern"
+    },
+    {
+        "t": "gra",
+        "d": "gra",
+        "s": "gra"
+    },
+    {
+        "t": "gràcia",
+        "d": "gràcia",
+        "s": "gracia"
+    },
+    {
+        "t": "gram",
+        "d": "gram",
+        "s": "gram"
+    },
+    {
+        "t": "gran",
+        "d": "gran",
+        "s": "gran"
+    },
+    {
+        "t": "granera",
+        "d": "granera",
+        "s": "granera"
+    },
+    {
+        "t": "grapa",
+        "d": "grapa",
+        "s": "grapa"
+    },
+    {
+        "t": "gratar",
+        "d": "gratar",
+        "s": "gratar"
+    },
+    {
+        "t": "grau",
+        "d": "grau",
+        "s": "grau"
+    },
+    {
+        "t": "gris_|_grisa",
+        "d": "gris <span class=\"no-bold\">|<\/span> grisa",
+        "s": "gris | grisa"
+    },
+    {
+        "t": "groc_|_groga",
+        "d": "groc <span class=\"no-bold\">|<\/span> groga",
+        "s": "groc | groga"
+    },
+    {
+        "t": "gros_|_grossa",
+        "d": "gros <span class=\"no-bold\">|<\/span> grossa",
+        "s": "gros | grossa"
+    },
+    {
+        "t": "gruixut_|_gruixuda",
+        "d": "gruixut <span class=\"no-bold\">|<\/span> gruixuda",
+        "s": "gruixut | gruixuda"
+    },
+    {
+        "t": "grup",
+        "d": "grup",
+        "s": "grup"
+    },
+    {
+        "t": "guanyar",
+        "d": "guanyar",
+        "s": "guanyar"
+    },
+    {
+        "t": "guardar",
+        "d": "guardar",
+        "s": "guardar"
+    },
+    {
+        "t": "guerra",
+        "d": "guerra",
+        "s": "guerra"
+    },
+    {
+        "t": "gust",
+        "d": "gust",
+        "s": "gust"
+    },
+    {
+        "t": "hàbil",
+        "d": "hàbil",
+        "s": "habil"
+    },
+    {
+        "t": "habitació",
+        "d": "habitació",
+        "s": "habitacio"
+    },
+    {
+        "t": "haver",
+        "d": "haver",
+        "s": "haver"
+    },
+    {
+        "t": "herba",
+        "d": "herba",
+        "s": "herba"
+    },
+    {
+        "t": "hivern",
+        "d": "hivern",
+        "s": "hivern"
+    },
+    {
+        "t": "home",
+        "d": "home",
+        "s": "home"
+    },
+    {
+        "t": "hora",
+        "d": "hora",
+        "s": "hora"
+    },
+    {
+        "t": "hospital",
+        "d": "hospital",
+        "s": "hospital"
+    },
+    {
+        "t": "hostal",
+        "d": "hostal",
+        "s": "hostal"
+    },
+    {
+        "t": "hui",
+        "d": "hui",
+        "s": "hui"
+    },
+    {
+        "t": "humit_|_humida",
+        "d": "humit <span class=\"no-bold\">|<\/span> humida",
+        "s": "humit | humida"
+    },
+    {
+        "t": "idea",
+        "d": "idea",
+        "s": "idea"
+    },
+    {
+        "t": "illa",
+        "d": "illa",
+        "s": "illa"
+    },
+    {
+        "t": "il·luminar",
+        "d": "il·luminar",
+        "s": "il·luminar"
+    },
+    {
+        "t": "imaginar",
+        "d": "imaginar",
+        "s": "imaginar"
+    },
+    {
+        "t": "imatge",
+        "d": "imatge",
+        "s": "imatge"
+    },
+    {
+        "t": "imitar",
+        "d": "imitar",
+        "s": "imitar"
+    },
+    {
+        "t": "impedir",
+        "d": "impedir",
+        "s": "impedir"
+    },
+    {
+        "t": "important",
+        "d": "important",
+        "s": "important"
+    },
+    {
+        "t": "impossible",
+        "d": "impossible",
+        "s": "impossible"
+    },
+    {
+        "t": "imprimir",
+        "d": "imprimir",
+        "s": "imprimir"
+    },
+    {
+        "t": "inclinar",
+        "d": "inclinar",
+        "s": "inclinar"
+    },
+    {
+        "t": "incòmode_|_incòmoda",
+        "d": "incòmode <span class=\"no-bold\">|<\/span> incòmoda",
+        "s": "incomode | incomoda"
+    },
+    {
+        "t": "indicar",
+        "d": "indicar",
+        "s": "indicar"
+    },
+    {
+        "t": "infant",
+        "d": "infant",
+        "s": "infant"
+    },
+    {
+        "t": "infeliç",
+        "d": "infeliç",
+        "s": "infeliç"
+    },
+    {
+        "t": "inflar",
+        "d": "inflar",
+        "s": "inflar"
+    },
+    {
+        "t": "influència",
+        "d": "influència",
+        "s": "influencia"
+    },
+    {
+        "t": "informar",
+        "d": "informar",
+        "s": "informar"
+    },
+    {
+        "t": "insistir",
+        "d": "insistir",
+        "s": "insistir"
+    },
+    {
+        "t": "instal·lar",
+        "d": "instal·lar",
+        "s": "instal·lar"
+    },
+    {
+        "t": "intel·ligent",
+        "d": "intel·ligent",
+        "s": "intel·ligent"
+    },
+    {
+        "t": "interès_(o_interés)",
+        "d": "interès <span class=\"no-bold\">(o<\/span> interés<span class=\"no-bold\">)<\/span>",
+        "s": "interes (o interes)"
+    },
+    {
+        "t": "interessant",
+        "d": "interessant",
+        "s": "interessant"
+    },
+    {
+        "t": "interessar",
+        "d": "interessar",
+        "s": "interessar"
+    },
+    {
+        "t": "inútil",
+        "d": "inútil",
+        "s": "inutil"
+    },
+    {
+        "t": "ira",
+        "d": "ira",
+        "s": "ira"
+    },
+    {
+        "t": "jardí",
+        "d": "jardí",
+        "s": "jardi"
+    },
+    {
+        "t": "jeure_(o_jaure)",
+        "d": "jeure <span class=\"no-bold\">(o<\/span> jaure<span class=\"no-bold\">)<\/span>",
+        "s": "jeure (o jaure)"
+    },
+    {
+        "t": "joc",
+        "d": "joc",
+        "s": "joc"
+    },
+    {
+        "t": "jornal",
+        "d": "jornal",
+        "s": "jornal"
+    },
+    {
+        "t": "jove",
+        "d": "jove",
+        "s": "jove"
+    },
+    {
+        "t": "judici",
+        "d": "judici",
+        "s": "judici"
+    },
+    {
+        "t": "jugar",
+        "d": "jugar",
+        "s": "jugar"
+    },
+    {
+        "t": "juliol",
+        "d": "juliol",
+        "s": "juliol"
+    },
+    {
+        "t": "juny",
+        "d": "juny",
+        "s": "juny"
+    },
+    {
+        "t": "just_|_justa",
+        "d": "just <span class=\"no-bold\">|<\/span> justa",
+        "s": "just | justa"
+    },
+    {
+        "t": "justícia",
+        "d": "justícia",
+        "s": "justicia"
+    },
+    {
+        "t": "límit",
+        "d": "límit",
+        "s": "limit"
+    },
+    {
+        "t": "línia",
+        "d": "línia",
+        "s": "linia"
+    },
+    {
+        "t": "líquid_|_líquida",
+        "d": "líquid <span class=\"no-bold\">|<\/span> líquida",
+        "s": "liquid | liquida"
+    },
+    {
+        "t": "litre",
+        "d": "litre",
+        "s": "litre"
+    },
+    {
+        "t": "llac",
+        "d": "llac",
+        "s": "llac"
+    },
+    {
+        "t": "lladre",
+        "d": "lladre",
+        "s": "lladre"
+    },
+    {
+        "t": "llamp",
+        "d": "llamp",
+        "s": "llamp"
+    },
+    {
+        "t": "llançar_(o_llençar)",
+        "d": "llançar <span class=\"no-bold\">(o<\/span> llençar<span class=\"no-bold\">)<\/span>",
+        "s": "llançar (o llençar)"
+    },
+    {
+        "t": "llarg_|_llarga",
+        "d": "llarg <span class=\"no-bold\">|<\/span> llarga",
+        "s": "llarg | llarga"
+    },
+    {
+        "t": "llargada",
+        "d": "llargada",
+        "s": "llargada"
+    },
+    {
+        "t": "llavor",
+        "d": "llavor",
+        "s": "llavor"
+    },
+    {
+        "t": "llegir",
+        "d": "llegir",
+        "s": "llegir"
+    },
+    {
+        "t": "llei",
+        "d": "llei",
+        "s": "llei"
+    },
+    {
+        "t": "lleig_|_lletja",
+        "d": "lleig <span class=\"no-bold\">|<\/span> lletja",
+        "s": "lleig | lletja"
+    },
+    {
+        "t": "llengua",
+        "d": "llengua",
+        "s": "llengua"
+    },
+    {
+        "t": "llet",
+        "d": "llet",
+        "s": "llet"
+    },
+    {
+        "t": "lletra",
+        "d": "lletra",
+        "s": "lletra"
+    },
+    {
+        "t": "lleuger_|_lleugera",
+        "d": "lleuger <span class=\"no-bold\">|<\/span> lleugera",
+        "s": "lleuger | lleugera"
+    },
+    {
+        "t": "llevar",
+        "d": "llevar",
+        "s": "llevar"
+    },
+    {
+        "t": "llibre",
+        "d": "llibre",
+        "s": "llibre"
+    },
+    {
+        "t": "lliçó",
+        "d": "lliçó",
+        "s": "lliço"
+    },
+    {
+        "t": "lligar",
+        "d": "lligar",
+        "s": "lligar"
+    },
+    {
+        "t": "llis_|_llisa",
+        "d": "llis <span class=\"no-bold\">|<\/span> llisa",
+        "s": "llis | llisa"
+    },
+    {
+        "t": "llit",
+        "d": "llit",
+        "s": "llit"
+    },
+    {
+        "t": "lliure",
+        "d": "lliure",
+        "s": "lliure"
+    },
+    {
+        "t": "lloc",
+        "d": "lloc",
+        "s": "lloc"
+    },
+    {
+        "t": "llogar",
+        "d": "llogar",
+        "s": "llogar"
+    },
+    {
+        "t": "lluir",
+        "d": "lluir",
+        "s": "lluir"
+    },
+    {
+        "t": "lluita",
+        "d": "lluita",
+        "s": "lluita"
+    },
+    {
+        "t": "lluitar",
+        "d": "lluitar",
+        "s": "lluitar"
+    },
+    {
+        "t": "llum",
+        "d": "llum",
+        "s": "llum"
+    },
+    {
+        "t": "lluna",
+        "d": "lluna",
+        "s": "lluna"
+    },
+    {
+        "t": "lluny",
+        "d": "lluny",
+        "s": "lluny"
+    },
+    {
+        "t": "mà",
+        "d": "mà",
+        "s": "ma"
+    },
+    {
+        "t": "madur_|_madura",
+        "d": "madur <span class=\"no-bold\">|<\/span> madura",
+        "s": "madur | madura"
+    },
+    {
+        "t": "magatzem",
+        "d": "magatzem",
+        "s": "magatzem"
+    },
+    {
+        "t": "maig",
+        "d": "maig",
+        "s": "maig"
+    },
+    {
+        "t": "mal",
+        "d": "mal",
+        "s": "mal"
+    },
+    {
+        "t": "malalt_|_malalta",
+        "d": "malalt <span class=\"no-bold\">|<\/span> malalta",
+        "s": "malalt | malalta"
+    },
+    {
+        "t": "maltractar",
+        "d": "maltractar",
+        "s": "maltractar"
+    },
+    {
+        "t": "mama",
+        "d": "mama",
+        "s": "mama"
+    },
+    {
+        "t": "manar",
+        "d": "manar",
+        "s": "manar"
+    },
+    {
+        "t": "manca",
+        "d": "manca",
+        "s": "manca"
+    },
+    {
+        "t": "mancar",
+        "d": "mancar",
+        "s": "mancar"
+    },
+    {
+        "t": "manera",
+        "d": "manera",
+        "s": "manera"
+    },
+    {
+        "t": "manifestar",
+        "d": "manifestar",
+        "s": "manifestar"
+    },
+    {
+        "t": "mantenir",
+        "d": "mantenir",
+        "s": "mantenir"
+    },
+    {
+        "t": "màquina",
+        "d": "màquina",
+        "s": "maquina"
+    },
+    {
+        "t": "mar",
+        "d": "mar",
+        "s": "mar"
+    },
+    {
+        "t": "març",
+        "d": "març",
+        "s": "març"
+    },
+    {
+        "t": "mare",
+        "d": "mare",
+        "s": "mare"
+    },
+    {
+        "t": "marit",
+        "d": "marit",
+        "s": "marit"
+    },
+    {
+        "t": "mastegar",
+        "d": "mastegar",
+        "s": "mastegar"
+    },
+    {
+        "t": "matar",
+        "d": "matar",
+        "s": "matar"
+    },
+    {
+        "t": "matí",
+        "d": "matí",
+        "s": "mati"
+    },
+    {
+        "t": "mena",
+        "d": "mena",
+        "s": "mena"
+    },
+    {
+        "t": "menjar",
+        "d": "menjar",
+        "s": "menjar"
+    },
+    {
+        "t": "mentida",
+        "d": "mentida",
+        "s": "mentida"
+    },
+    {
+        "t": "mercat",
+        "d": "mercat",
+        "s": "mercat"
+    },
+    {
+        "t": "merda",
+        "d": "merda",
+        "s": "merda"
+    },
+    {
+        "t": "mes",
+        "d": "mes",
+        "s": "mes"
+    },
+    {
+        "t": "mesclar",
+        "d": "mesclar",
+        "s": "mesclar"
+    },
+    {
+        "t": "mestre",
+        "d": "mestre",
+        "s": "mestre"
+    },
+    {
+        "t": "mesura",
+        "d": "mesura",
+        "s": "mesura"
+    },
+    {
+        "t": "mesurar",
+        "d": "mesurar",
+        "s": "mesurar"
+    },
+    {
+        "t": "metall",
+        "d": "metall",
+        "s": "metall"
+    },
+    {
+        "t": "metge",
+        "d": "metge",
+        "s": "metge"
+    },
+    {
+        "t": "metre",
+        "d": "metre",
+        "s": "metre"
+    },
+    {
+        "t": "mica",
+        "d": "mica",
+        "s": "mica"
+    },
+    {
+        "t": "mida",
+        "d": "mida",
+        "s": "mida"
+    },
+    {
+        "t": "mig",
+        "d": "mig",
+        "s": "mig"
+    },
+    {
+        "t": "migdia",
+        "d": "migdia",
+        "s": "migdia"
+    },
+    {
+        "t": "millor",
+        "d": "millor",
+        "s": "millor"
+    },
+    {
+        "t": "minut",
+        "d": "minut",
+        "s": "minut"
+    },
+    {
+        "t": "mirar",
+        "d": "mirar",
+        "s": "mirar"
+    },
+    {
+        "t": "missa",
+        "d": "missa",
+        "s": "missa"
+    },
+    {
+        "t": "misteri",
+        "d": "misteri",
+        "s": "misteri"
+    },
+    {
+        "t": "moble",
+        "d": "moble",
+        "s": "moble"
+    },
+    {
+        "t": "mocar",
+        "d": "mocar",
+        "s": "mocar"
+    },
+    {
+        "t": "modern_|_moderna",
+        "d": "modern <span class=\"no-bold\">|<\/span> moderna",
+        "s": "modern | moderna"
+    },
+    {
+        "t": "molestar",
+        "d": "molestar",
+        "s": "molestar"
+    },
+    {
+        "t": "moment",
+        "d": "moment",
+        "s": "moment"
+    },
+    {
+        "t": "món",
+        "d": "món",
+        "s": "mon"
+    },
+    {
+        "t": "moneda",
+        "d": "moneda",
+        "s": "moneda"
+    },
+    {
+        "t": "mont",
+        "d": "mont",
+        "s": "mont"
+    },
+    {
+        "t": "morir",
+        "d": "morir",
+        "s": "morir"
+    },
+    {
+        "t": "mort_|_morta",
+        "d": "mort <span class=\"no-bold\">|<\/span> morta",
+        "s": "mort | morta"
+    },
+    {
+        "t": "mossegar",
+        "d": "mossegar",
+        "s": "mossegar"
+    },
+    {
+        "t": "mostrar",
+        "d": "mostrar",
+        "s": "mostrar"
+    },
+    {
+        "t": "mot",
+        "d": "mot",
+        "s": "mot"
+    },
+    {
+        "t": "motiu",
+        "d": "motiu",
+        "s": "motiu"
+    },
+    {
+        "t": "motor",
+        "d": "motor",
+        "s": "motor"
+    },
+    {
+        "t": "moure",
+        "d": "moure",
+        "s": "moure"
+    },
+    {
+        "t": "moviment",
+        "d": "moviment",
+        "s": "moviment"
+    },
+    {
+        "t": "mullar",
+        "d": "mullar",
+        "s": "mullar"
+    },
+    {
+        "t": "munt",
+        "d": "munt",
+        "s": "munt"
+    },
+    {
+        "t": "muntanya",
+        "d": "muntanya",
+        "s": "muntanya"
+    },
+    {
+        "t": "muntar",
+        "d": "muntar",
+        "s": "muntar"
+    },
+    {
+        "t": "música",
+        "d": "música",
+        "s": "musica"
+    },
+    {
+        "t": "mut_|_muda",
+        "d": "mut <span class=\"no-bold\">|<\/span> muda",
+        "s": "mut | muda"
+    },
+    {
+        "t": "Nadal",
+        "d": "Nadal",
+        "s": "nadal"
+    },
+    {
+        "t": "nas",
+        "d": "nas",
+        "s": "nas"
+    },
+    {
+        "t": "natural",
+        "d": "natural",
+        "s": "natural"
+    },
+    {
+        "t": "necessari_|_necessària",
+        "d": "necessari <span class=\"no-bold\">|<\/span> necessària",
+        "s": "necessari | necessaria"
+    },
+    {
+        "t": "necessitar",
+        "d": "necessitar",
+        "s": "necessitar"
+    },
+    {
+        "t": "necessitat",
+        "d": "necessitat",
+        "s": "necessitat"
+    },
+    {
+        "t": "nedar_(o_nadar)",
+        "d": "nedar <span class=\"no-bold\">(o<\/span> nadar<span class=\"no-bold\">)<\/span>",
+        "s": "nedar (o nadar)"
+    },
+    {
+        "t": "negre_|_negra",
+        "d": "negre <span class=\"no-bold\">|<\/span> negra",
+        "s": "negre | negra"
+    },
+    {
+        "t": "neguit",
+        "d": "neguit",
+        "s": "neguit"
+    },
+    {
+        "t": "néixer",
+        "d": "néixer",
+        "s": "neixer"
+    },
+    {
+        "t": "nen",
+        "d": "nen",
+        "s": "nen"
+    },
+    {
+        "t": "nervi",
+        "d": "nervi",
+        "s": "nervi"
+    },
+    {
+        "t": "net_[escrit_abans:_nét]",
+        "d": "net <span class=\"no-bold\">[escrit abans:<\/span> nét<span class=\"no-bold\">]<\/span>",
+        "s": "net [escrit abans: net]"
+    },
+    {
+        "t": "net_|_neta",
+        "d": "net <span class=\"no-bold\">|<\/span> neta",
+        "s": "net | neta"
+    },
+    {
+        "t": "netejar",
+        "d": "netejar",
+        "s": "netejar"
+    },
+    {
+        "t": "neu",
+        "d": "neu",
+        "s": "neu"
+    },
+    {
+        "t": "nit",
+        "d": "nit",
+        "s": "nit"
+    },
+    {
+        "t": "nivell",
+        "d": "nivell",
+        "s": "nivell"
+    },
+    {
+        "t": "noi",
+        "d": "noi",
+        "s": "noi"
+    },
+    {
+        "t": "nom",
+        "d": "nom",
+        "s": "nom"
+    },
+    {
+        "t": "nombre",
+        "d": "nombre",
+        "s": "nombre"
+    },
+    {
+        "t": "nord",
+        "d": "nord",
+        "s": "nord"
+    },
+    {
+        "t": "normal",
+        "d": "normal",
+        "s": "normal"
+    },
+    {
+        "t": "nota",
+        "d": "nota",
+        "s": "nota"
+    },
+    {
+        "t": "notícia",
+        "d": "notícia",
+        "s": "noticia"
+    },
+    {
+        "t": "nou_|_nova",
+        "d": "nou <span class=\"no-bold\">|<\/span> nova",
+        "s": "nou | nova"
+    },
+    {
+        "t": "novembre",
+        "d": "novembre",
+        "s": "novembre"
+    },
+    {
+        "t": "número",
+        "d": "número",
+        "s": "numero"
+    },
+    {
+        "t": "nus",
+        "d": "nus",
+        "s": "nus"
+    },
+    {
+        "t": "núvol",
+        "d": "núvol",
+        "s": "nuvol"
+    },
+    {
+        "t": "obeir",
+        "d": "obeir",
+        "s": "obeir"
+    },
+    {
+        "t": "oblidar",
+        "d": "oblidar",
+        "s": "oblidar"
+    },
+    {
+        "t": "obligar",
+        "d": "obligar",
+        "s": "obligar"
+    },
+    {
+        "t": "obra",
+        "d": "obra",
+        "s": "obra"
+    },
+    {
+        "t": "obrer",
+        "d": "obrer",
+        "s": "obrer"
+    },
+    {
+        "t": "obrir",
+        "d": "obrir",
+        "s": "obrir"
+    },
+    {
+        "t": "obscur_|_obscura",
+        "d": "obscur <span class=\"no-bold\">|<\/span> obscura",
+        "s": "obscur | obscura"
+    },
+    {
+        "t": "ocasió",
+        "d": "ocasió",
+        "s": "ocasio"
+    },
+    {
+        "t": "ocell",
+        "d": "ocell",
+        "s": "ocell"
+    },
+    {
+        "t": "octubre",
+        "d": "octubre",
+        "s": "octubre"
+    },
+    {
+        "t": "ocupar",
+        "d": "ocupar",
+        "s": "ocupar"
+    },
+    {
+        "t": "odiar",
+        "d": "odiar",
+        "s": "odiar"
+    },
+    {
+        "t": "oest",
+        "d": "oest",
+        "s": "oest"
+    },
+    {
+        "t": "ofegar",
+        "d": "ofegar",
+        "s": "ofegar"
+    },
+    {
+        "t": "oferir",
+        "d": "oferir",
+        "s": "oferir"
+    },
+    {
+        "t": "ofici",
+        "d": "ofici",
+        "s": "ofici"
+    },
+    {
+        "t": "oli",
+        "d": "oli",
+        "s": "oli"
+    },
+    {
+        "t": "olla",
+        "d": "olla",
+        "s": "olla"
+    },
+    {
+        "t": "olor",
+        "d": "olor",
+        "s": "olor"
+    },
+    {
+        "t": "olorar_(o_oldre)",
+        "d": "olorar <span class=\"no-bold\">(o<\/span> oldre<span class=\"no-bold\">)<\/span>",
+        "s": "olorar (o oldre)"
+    },
+    {
+        "t": "ombra",
+        "d": "ombra",
+        "s": "ombra"
+    },
+    {
+        "t": "omplir",
+        "d": "omplir",
+        "s": "omplir"
+    },
+    {
+        "t": "oncle",
+        "d": "oncle",
+        "s": "oncle"
+    },
+    {
+        "t": "or",
+        "d": "or",
+        "s": "or"
+    },
+    {
+        "t": "ordenar",
+        "d": "ordenar",
+        "s": "ordenar"
+    },
+    {
+        "t": "ordre",
+        "d": "ordre",
+        "s": "ordre"
+    },
+    {
+        "t": "orella",
+        "d": "orella",
+        "s": "orella"
+    },
+    {
+        "t": "organitzar",
+        "d": "organitzar",
+        "s": "organitzar"
+    },
+    {
+        "t": "orientar",
+        "d": "orientar",
+        "s": "orientar"
+    },
+    {
+        "t": "os1",
+        "d": "os<sup>1<\/sup>",
+        "s": "os1"
+    },
+    {
+        "t": "os2_[escrit_abans:_ós]",
+        "d": "os<sup>2<\/sup> <span class=\"no-bold\">[escrit abans:<\/span> ós<span class=\"no-bold\">]<\/span>",
+        "s": "os2 [escrit abans: os]"
+    },
+    {
+        "t": "ou",
+        "d": "ou",
+        "s": "ou"
+    },
+    {
+        "t": "pa",
+        "d": "pa",
+        "s": "pa"
+    },
+    {
+        "t": "paciència",
+        "d": "paciència",
+        "s": "paciencia"
+    },
+    {
+        "t": "pacte",
+        "d": "pacte",
+        "s": "pacte"
+    },
+    {
+        "t": "pagar",
+        "d": "pagar",
+        "s": "pagar"
+    },
+    {
+        "t": "pagès",
+        "d": "pagès",
+        "s": "pages"
+    },
+    {
+        "t": "pàgina",
+        "d": "pàgina",
+        "s": "pagina"
+    },
+    {
+        "t": "país",
+        "d": "país",
+        "s": "pais"
+    },
+    {
+        "t": "palau",
+        "d": "palau",
+        "s": "palau"
+    },
+    {
+        "t": "palla",
+        "d": "palla",
+        "s": "palla"
+    },
+    {
+        "t": "panís",
+        "d": "panís",
+        "s": "panis"
+    },
+    {
+        "t": "panxa",
+        "d": "panxa",
+        "s": "panxa"
+    },
+    {
+        "t": "papa",
+        "d": "papa",
+        "s": "papa"
+    },
+    {
+        "t": "paper",
+        "d": "paper",
+        "s": "paper"
+    },
+    {
+        "t": "paquet",
+        "d": "paquet",
+        "s": "paquet"
+    },
+    {
+        "t": "paralitzar",
+        "d": "paralitzar",
+        "s": "paralitzar"
+    },
+    {
+        "t": "parar",
+        "d": "parar",
+        "s": "parar"
+    },
+    {
+        "t": "paraula",
+        "d": "paraula",
+        "s": "paraula"
+    },
+    {
+        "t": "pardal",
+        "d": "pardal",
+        "s": "pardal"
+    },
+    {
+        "t": "pare",
+        "d": "pare",
+        "s": "pare"
+    },
+    {
+        "t": "parell_|_parella",
+        "d": "parell <span class=\"no-bold\">|<\/span> parella",
+        "s": "parell | parella"
+    },
+    {
+        "t": "parent_|_parenta",
+        "d": "parent <span class=\"no-bold\">|<\/span> parenta",
+        "s": "parent | parenta"
+    },
+    {
+        "t": "parer",
+        "d": "parer",
+        "s": "parer"
+    },
+    {
+        "t": "paret",
+        "d": "paret",
+        "s": "paret"
+    },
+    {
+        "t": "parir",
+        "d": "parir",
+        "s": "parir"
+    },
+    {
+        "t": "parlar",
+        "d": "parlar",
+        "s": "parlar"
+    },
+    {
+        "t": "part",
+        "d": "part",
+        "s": "part"
+    },
+    {
+        "t": "partit",
+        "d": "partit",
+        "s": "partit"
+    },
+    {
+        "t": "pas",
+        "d": "pas",
+        "s": "pas"
+    },
+    {
+        "t": "passar",
+        "d": "passar",
+        "s": "passar"
+    },
+    {
+        "t": "passejar",
+        "d": "passejar",
+        "s": "passejar"
+    },
+    {
+        "t": "patata",
+        "d": "patata",
+        "s": "patata"
+    },
+    {
+        "t": "pati",
+        "d": "pati",
+        "s": "pati"
+    },
+    {
+        "t": "patir",
+        "d": "patir",
+        "s": "patir"
+    },
+    {
+        "t": "patró",
+        "d": "patró",
+        "s": "patro"
+    },
+    {
+        "t": "pau",
+        "d": "pau",
+        "s": "pau"
+    },
+    {
+        "t": "peça",
+        "d": "peça",
+        "s": "peça"
+    },
+    {
+        "t": "pedra",
+        "d": "pedra",
+        "s": "pedra"
+    },
+    {
+        "t": "pegar",
+        "d": "pegar",
+        "s": "pegar"
+    },
+    {
+        "t": "peix",
+        "d": "peix",
+        "s": "peix"
+    },
+    {
+        "t": "pèl",
+        "d": "pèl",
+        "s": "pel"
+    },
+    {
+        "t": "pell",
+        "d": "pell",
+        "s": "pell"
+    },
+    {
+        "t": "pel·lícula",
+        "d": "pel·lícula",
+        "s": "pel·licula"
+    },
+    {
+        "t": "pena",
+        "d": "pena",
+        "s": "pena"
+    },
+    {
+        "t": "pendent",
+        "d": "pendent",
+        "s": "pendent"
+    },
+    {
+        "t": "penedir-se",
+        "d": "penedir-se",
+        "s": "penedir-se"
+    },
+    {
+        "t": "pensament",
+        "d": "pensament",
+        "s": "pensament"
+    },
+    {
+        "t": "pensar",
+        "d": "pensar",
+        "s": "pensar"
+    },
+    {
+        "t": "pera",
+        "d": "pera",
+        "s": "pera"
+    },
+    {
+        "t": "perdonar",
+        "d": "perdonar",
+        "s": "perdonar"
+    },
+    {
+        "t": "perdre",
+        "d": "perdre",
+        "s": "perdre"
+    },
+    {
+        "t": "peresa",
+        "d": "peresa",
+        "s": "peresa"
+    },
+    {
+        "t": "peresós_|_peresosa",
+        "d": "peresós <span class=\"no-bold\">|<\/span> peresosa",
+        "s": "peresos | peresosa"
+    },
+    {
+        "t": "perill",
+        "d": "perill",
+        "s": "perill"
+    },
+    {
+        "t": "permetre",
+        "d": "permetre",
+        "s": "permetre"
+    },
+    {
+        "t": "persona",
+        "d": "persona",
+        "s": "persona"
+    },
+    {
+        "t": "pes",
+        "d": "pes",
+        "s": "pes"
+    },
+    {
+        "t": "pesar",
+        "d": "pesar",
+        "s": "pesar"
+    },
+    {
+        "t": "pesat_|_pesada",
+        "d": "pesat <span class=\"no-bold\">|<\/span> pesada",
+        "s": "pesat | pesada"
+    },
+    {
+        "t": "pescar",
+        "d": "pescar",
+        "s": "pescar"
+    },
+    {
+        "t": "pesseta",
+        "d": "pesseta",
+        "s": "pesseta"
+    },
+    {
+        "t": "petar",
+        "d": "petar",
+        "s": "petar"
+    },
+    {
+        "t": "petit_|_petita",
+        "d": "petit <span class=\"no-bold\">|<\/span> petita",
+        "s": "petit | petita"
+    },
+    {
+        "t": "petó",
+        "d": "petó",
+        "s": "peto"
+    },
+    {
+        "t": "peu",
+        "d": "peu",
+        "s": "peu"
+    },
+    {
+        "t": "picar",
+        "d": "picar",
+        "s": "picar"
+    },
+    {
+        "t": "pila",
+        "d": "pila",
+        "s": "pila"
+    },
+    {
+        "t": "pintar",
+        "d": "pintar",
+        "s": "pintar"
+    },
+    {
+        "t": "pis",
+        "d": "pis",
+        "s": "pis"
+    },
+    {
+        "t": "piscina",
+        "d": "piscina",
+        "s": "piscina"
+    },
+    {
+        "t": "pit",
+        "d": "pit",
+        "s": "pit"
+    },
+    {
+        "t": "pitjar",
+        "d": "pitjar",
+        "s": "pitjar"
+    },
+    {
+        "t": "pla_|_plana",
+        "d": "pla <span class=\"no-bold\">|<\/span> plana",
+        "s": "pla | plana"
+    },
+    {
+        "t": "plaça",
+        "d": "plaça",
+        "s": "plaça"
+    },
+    {
+        "t": "plaer",
+        "d": "plaer",
+        "s": "plaer"
+    },
+    {
+        "t": "planta",
+        "d": "planta",
+        "s": "planta"
+    },
+    {
+        "t": "plantar",
+        "d": "plantar",
+        "s": "plantar"
+    },
+    {
+        "t": "plàtan",
+        "d": "plàtan",
+        "s": "platan"
+    },
+    {
+        "t": "plaure",
+        "d": "plaure",
+        "s": "plaure"
+    },
+    {
+        "t": "ple_|_plena",
+        "d": "ple <span class=\"no-bold\">|<\/span> plena",
+        "s": "ple | plena"
+    },
+    {
+        "t": "plegar",
+        "d": "plegar",
+        "s": "plegar"
+    },
+    {
+        "t": "ploma",
+        "d": "ploma",
+        "s": "ploma"
+    },
+    {
+        "t": "plorar",
+        "d": "plorar",
+        "s": "plorar"
+    },
+    {
+        "t": "ploure",
+        "d": "ploure",
+        "s": "ploure"
+    },
+    {
+        "t": "pluja",
+        "d": "pluja",
+        "s": "pluja"
+    },
+    {
+        "t": "poble",
+        "d": "poble",
+        "s": "poble"
+    },
+    {
+        "t": "pobre_|_pobra",
+        "d": "pobre <span class=\"no-bold\">|<\/span> pobra",
+        "s": "pobre | pobra"
+    },
+    {
+        "t": "poder",
+        "d": "poder",
+        "s": "poder"
+    },
+    {
+        "t": "podrit_|_podrida",
+        "d": "podrit <span class=\"no-bold\">|<\/span> podrida",
+        "s": "podrit | podrida"
+    },
+    {
+        "t": "poll",
+        "d": "poll",
+        "s": "poll"
+    },
+    {
+        "t": "pols",
+        "d": "pols",
+        "s": "pols"
+    },
+    {
+        "t": "poma",
+        "d": "poma",
+        "s": "poma"
+    },
+    {
+        "t": "pont",
+        "d": "pont",
+        "s": "pont"
+    },
+    {
+        "t": "por",
+        "d": "por",
+        "s": "por"
+    },
+    {
+        "t": "porc",
+        "d": "porc",
+        "s": "porc"
+    },
+    {
+        "t": "port",
+        "d": "port",
+        "s": "port"
+    },
+    {
+        "t": "porta",
+        "d": "porta",
+        "s": "porta"
+    },
+    {
+        "t": "portar",
+        "d": "portar",
+        "s": "portar"
+    },
+    {
+        "t": "posar",
+        "d": "posar",
+        "s": "posar"
+    },
+    {
+        "t": "possible",
+        "d": "possible",
+        "s": "possible"
+    },
+    {
+        "t": "pota",
+        "d": "pota",
+        "s": "pota"
+    },
+    {
+        "t": "pregar",
+        "d": "pregar",
+        "s": "pregar"
+    },
+    {
+        "t": "preguntar",
+        "d": "preguntar",
+        "s": "preguntar"
+    },
+    {
+        "t": "prendre",
+        "d": "prendre",
+        "s": "prendre"
+    },
+    {
+        "t": "preocupar-se",
+        "d": "preocupar-se",
+        "s": "preocupar-se"
+    },
+    {
+        "t": "preparar",
+        "d": "preparar",
+        "s": "preparar"
+    },
+    {
+        "t": "presència",
+        "d": "presència",
+        "s": "presencia"
+    },
+    {
+        "t": "presentar",
+        "d": "presentar",
+        "s": "presentar"
+    },
+    {
+        "t": "prest",
+        "d": "prest",
+        "s": "prest"
+    },
+    {
+        "t": "preu",
+        "d": "preu",
+        "s": "preu"
+    },
+    {
+        "t": "prim_|_prima",
+        "d": "prim <span class=\"no-bold\">|<\/span> prima",
+        "s": "prim | prima"
+    },
+    {
+        "t": "primavera",
+        "d": "primavera",
+        "s": "primavera"
+    },
+    {
+        "t": "primer_|_primera",
+        "d": "primer <span class=\"no-bold\">|<\/span> primera",
+        "s": "primer | primera"
+    },
+    {
+        "t": "principi",
+        "d": "principi",
+        "s": "principi"
+    },
+    {
+        "t": "problema",
+        "d": "problema",
+        "s": "problema"
+    },
+    {
+        "t": "professor",
+        "d": "professor",
+        "s": "professor"
+    },
+    {
+        "t": "prometre",
+        "d": "prometre",
+        "s": "prometre"
+    },
+    {
+        "t": "prompte",
+        "d": "prompte",
+        "s": "prompte"
+    },
+    {
+        "t": "propietat",
+        "d": "propietat",
+        "s": "propietat"
+    },
+    {
+        "t": "prou",
+        "d": "prou",
+        "s": "prou"
+    },
+    {
+        "t": "prova",
+        "d": "prova",
+        "s": "prova"
+    },
+    {
+        "t": "provar",
+        "d": "provar",
+        "s": "provar"
+    },
+    {
+        "t": "públic_|_pública",
+        "d": "públic <span class=\"no-bold\">|<\/span> pública",
+        "s": "public | publica"
+    },
+    {
+        "t": "publicar",
+        "d": "publicar",
+        "s": "publicar"
+    },
+    {
+        "t": "pujada",
+        "d": "pujada",
+        "s": "pujada"
+    },
+    {
+        "t": "pujar",
+        "d": "pujar",
+        "s": "pujar"
+    },
+    {
+        "t": "punt",
+        "d": "punt",
+        "s": "punt"
+    },
+    {
+        "t": "punxar",
+        "d": "punxar",
+        "s": "punxar"
+    },
+    {
+        "t": "punxegut_|_punxeguda",
+        "d": "punxegut <span class=\"no-bold\">|<\/span> punxeguda",
+        "s": "punxegut | punxeguda"
+    },
+    {
+        "t": "pur_|_pura",
+        "d": "pur <span class=\"no-bold\">|<\/span> pura",
+        "s": "pur | pura"
+    },
+    {
+        "t": "quadra",
+        "d": "quadra",
+        "s": "quadra"
+    },
+    {
+        "t": "quadrat_|_quadrada",
+        "d": "quadrat <span class=\"no-bold\">|<\/span> quadrada",
+        "s": "quadrat | quadrada"
+    },
+    {
+        "t": "quadre",
+        "d": "quadre",
+        "s": "quadre"
+    },
+    {
+        "t": "quart",
+        "d": "quart",
+        "s": "quart"
+    },
+    {
+        "t": "quedar_(-se)",
+        "d": "quedar <span class=\"no-bold\">(-se)<\/span>",
+        "s": "quedar (-se)"
+    },
+    {
+        "t": "queixar-se",
+        "d": "queixar-se",
+        "s": "queixar-se"
+    },
+    {
+        "t": "quilo",
+        "d": "quilo",
+        "s": "quilo"
+    },
+    {
+        "t": "ràbia",
+        "d": "ràbia",
+        "s": "rabia"
+    },
+    {
+        "t": "raça",
+        "d": "raça",
+        "s": "raça"
+    },
+    {
+        "t": "racó",
+        "d": "racó",
+        "s": "raco"
+    },
+    {
+        "t": "ràdio",
+        "d": "ràdio",
+        "s": "radio"
+    },
+    {
+        "t": "raig",
+        "d": "raig",
+        "s": "raig"
+    },
+    {
+        "t": "raïl",
+        "d": "raïl",
+        "s": "rail"
+    },
+    {
+        "t": "raïm",
+        "d": "raïm",
+        "s": "raim"
+    },
+    {
+        "t": "raó",
+        "d": "raó",
+        "s": "rao"
+    },
+    {
+        "t": "ràpid_|_ràpida",
+        "d": "ràpid <span class=\"no-bold\">|<\/span> ràpida",
+        "s": "rapid | rapida"
+    },
+    {
+        "t": "rar_|_rara",
+        "d": "rar <span class=\"no-bold\">|<\/span> rara",
+        "s": "rar | rara"
+    },
+    {
+        "t": "ras_|_rasa",
+        "d": "ras <span class=\"no-bold\">|<\/span> rasa",
+        "s": "ras | rasa"
+    },
+    {
+        "t": "ratlla",
+        "d": "ratlla",
+        "s": "ratlla"
+    },
+    {
+        "t": "rebentar(-se)",
+        "d": "rebentar<span class=\"no-bold\">(-se)<\/span>",
+        "s": "rebentar(-se)"
+    },
+    {
+        "t": "rebre",
+        "d": "rebre",
+        "s": "rebre"
+    },
+    {
+        "t": "rebutjar",
+        "d": "rebutjar",
+        "s": "rebutjar"
+    },
+    {
+        "t": "rec",
+        "d": "rec",
+        "s": "rec"
+    },
+    {
+        "t": "recança",
+        "d": "recança",
+        "s": "recança"
+    },
+    {
+        "t": "recercar",
+        "d": "recercar",
+        "s": "recercar"
+    },
+    {
+        "t": "recipient",
+        "d": "recipient",
+        "s": "recipient"
+    },
+    {
+        "t": "recollir",
+        "d": "recollir",
+        "s": "recollir"
+    },
+    {
+        "t": "reconèixer_(o_reconéixer)",
+        "d": "reconèixer <span class=\"no-bold\">(o<\/span> reconéixer<span class=\"no-bold\">)<\/span>",
+        "s": "reconeixer (o reconeixer)"
+    },
+    {
+        "t": "recordar",
+        "d": "recordar",
+        "s": "recordar"
+    },
+    {
+        "t": "recórrer",
+        "d": "recórrer",
+        "s": "recorrer"
+    },
+    {
+        "t": "recte_|_recta",
+        "d": "recte <span class=\"no-bold\">|<\/span> recta",
+        "s": "recte | recta"
+    },
+    {
+        "t": "redó_|_redona",
+        "d": "redó <span class=\"no-bold\">|<\/span> redona",
+        "s": "redo | redona"
+    },
+    {
+        "t": "regar",
+        "d": "regar",
+        "s": "regar"
+    },
+    {
+        "t": "regió",
+        "d": "regió",
+        "s": "regio"
+    },
+    {
+        "t": "regla",
+        "d": "regla",
+        "s": "regla"
+    },
+    {
+        "t": "regle",
+        "d": "regle",
+        "s": "regle"
+    },
+    {
+        "t": "rei_|_reina",
+        "d": "rei <span class=\"no-bold\">|<\/span> reina",
+        "s": "rei | reina"
+    },
+    {
+        "t": "remarcar",
+        "d": "remarcar",
+        "s": "remarcar"
+    },
+    {
+        "t": "remei",
+        "d": "remei",
+        "s": "remei"
+    },
+    {
+        "t": "rentar",
+        "d": "rentar",
+        "s": "rentar"
+    },
+    {
+        "t": "renyar",
+        "d": "renyar",
+        "s": "renyar"
+    },
+    {
+        "t": "reparar",
+        "d": "reparar",
+        "s": "reparar"
+    },
+    {
+        "t": "reposar",
+        "d": "reposar",
+        "s": "reposar"
+    },
+    {
+        "t": "representar",
+        "d": "representar",
+        "s": "representar"
+    },
+    {
+        "t": "respecte",
+        "d": "respecte",
+        "s": "respecte"
+    },
+    {
+        "t": "respirar",
+        "d": "respirar",
+        "s": "respirar"
+    },
+    {
+        "t": "respondre",
+        "d": "respondre",
+        "s": "respondre"
+    },
+    {
+        "t": "resposta",
+        "d": "resposta",
+        "s": "resposta"
+    },
+    {
+        "t": "resta",
+        "d": "resta",
+        "s": "resta"
+    },
+    {
+        "t": "restar",
+        "d": "restar",
+        "s": "restar"
+    },
+    {
+        "t": "retard",
+        "d": "retard",
+        "s": "retard"
+    },
+    {
+        "t": "reunir",
+        "d": "reunir",
+        "s": "reunir"
+    },
+    {
+        "t": "ric_|_rica",
+        "d": "ric <span class=\"no-bold\">|<\/span> rica",
+        "s": "ric | rica"
+    },
+    {
+        "t": "riu",
+        "d": "riu",
+        "s": "riu"
+    },
+    {
+        "t": "riure",
+        "d": "riure",
+        "s": "riure"
+    },
+    {
+        "t": "roba",
+        "d": "roba",
+        "s": "roba"
+    },
+    {
+        "t": "robar",
+        "d": "robar",
+        "s": "robar"
+    },
+    {
+        "t": "roda",
+        "d": "roda",
+        "s": "roda"
+    },
+    {
+        "t": "rodó_|_rodona",
+        "d": "rodó <span class=\"no-bold\">|<\/span> rodona",
+        "s": "rodo | rodona"
+    },
+    {
+        "t": "roí_(o_roín)_|_roïna",
+        "d": "roí <span class=\"no-bold\">(o<\/span> roín<span class=\"no-bold\">)<\/span> <span class=\"no-bold\">|<\/span> roïna",
+        "s": "roi (o roin) | roina"
+    },
+    {
+        "t": "roig_|_roja",
+        "d": "roig <span class=\"no-bold\">|<\/span> roja",
+        "s": "roig | roja"
+    },
+    {
+        "t": "rondinar",
+        "d": "rondinar",
+        "s": "rondinar"
+    },
+    {
+        "t": "ruc_|_ruca",
+        "d": "ruc <span class=\"no-bold\">|<\/span> ruca",
+        "s": "ruc | ruca"
+    },
+    {
+        "t": "sa_|_sana",
+        "d": "sa <span class=\"no-bold\">|<\/span> sana",
+        "s": "sa | sana"
+    },
+    {
+        "t": "sabata",
+        "d": "sabata",
+        "s": "sabata"
+    },
+    {
+        "t": "saber",
+        "d": "saber",
+        "s": "saber"
+    },
+    {
+        "t": "sac",
+        "d": "sac",
+        "s": "sac"
+    },
+    {
+        "t": "sal",
+        "d": "sal",
+        "s": "sal"
+    },
+    {
+        "t": "sala",
+        "d": "sala",
+        "s": "sala"
+    },
+    {
+        "t": "saliva",
+        "d": "saliva",
+        "s": "saliva"
+    },
+    {
+        "t": "salt",
+        "d": "salt",
+        "s": "salt"
+    },
+    {
+        "t": "saltar",
+        "d": "saltar",
+        "s": "saltar"
+    },
+    {
+        "t": "saludar",
+        "d": "saludar",
+        "s": "saludar"
+    },
+    {
+        "t": "salut",
+        "d": "salut",
+        "s": "salut"
+    },
+    {
+        "t": "salvar",
+        "d": "salvar",
+        "s": "salvar"
+    },
+    {
+        "t": "sang",
+        "d": "sang",
+        "s": "sang"
+    },
+    {
+        "t": "sant_|_santa",
+        "d": "sant <span class=\"no-bold\">|<\/span> santa",
+        "s": "sant | santa"
+    },
+    {
+        "t": "savi_|_sàvia",
+        "d": "savi <span class=\"no-bold\">|<\/span> sàvia",
+        "s": "savi | savia"
+    },
+    {
+        "t": "sec_|_seca",
+        "d": "sec <span class=\"no-bold\">|<\/span> seca",
+        "s": "sec | seca"
+    },
+    {
+        "t": "seduir",
+        "d": "seduir",
+        "s": "seduir"
+    },
+    {
+        "t": "segle",
+        "d": "segle",
+        "s": "segle"
+    },
+    {
+        "t": "segon_|_segona",
+        "d": "segon <span class=\"no-bold\">|<\/span> segona",
+        "s": "segon | segona"
+    },
+    {
+        "t": "seguir",
+        "d": "seguir",
+        "s": "seguir"
+    },
+    {
+        "t": "seguit",
+        "d": "seguit",
+        "s": "seguit"
+    },
+    {
+        "t": "segur_|_segura",
+        "d": "segur <span class=\"no-bold\">|<\/span> segura",
+        "s": "segur | segura"
+    },
+    {
+        "t": "semblar",
+        "d": "semblar",
+        "s": "semblar"
+    },
+    {
+        "t": "sembrar",
+        "d": "sembrar",
+        "s": "sembrar"
+    },
+    {
+        "t": "sencer_|_sencera",
+        "d": "sencer <span class=\"no-bold\">|<\/span> sencera",
+        "s": "sencer | sencera"
+    },
+    {
+        "t": "sensible",
+        "d": "sensible",
+        "s": "sensible"
+    },
+    {
+        "t": "sentiment",
+        "d": "sentiment",
+        "s": "sentiment"
+    },
+    {
+        "t": "sentir",
+        "d": "sentir",
+        "s": "sentir"
+    },
+    {
+        "t": "sentit",
+        "d": "sentit",
+        "s": "sentit"
+    },
+    {
+        "t": "senyal",
+        "d": "senyal",
+        "s": "senyal"
+    },
+    {
+        "t": "senyor",
+        "d": "senyor",
+        "s": "senyor"
+    },
+    {
+        "t": "senzill_|_senzilla",
+        "d": "senzill <span class=\"no-bold\">|<\/span> senzilla",
+        "s": "senzill | senzilla"
+    },
+    {
+        "t": "separar",
+        "d": "separar",
+        "s": "separar"
+    },
+    {
+        "t": "ser_(o_ésser)",
+        "d": "ser <span class=\"no-bold\">(o<\/span> ésser<span class=\"no-bold\">)<\/span>",
+        "s": "ser (o esser)"
+    },
+    {
+        "t": "serè_|_serena",
+        "d": "serè <span class=\"no-bold\">|<\/span> serena",
+        "s": "sere | serena"
+    },
+    {
+        "t": "seriós_|_seriosa",
+        "d": "seriós <span class=\"no-bold\">|<\/span> seriosa",
+        "s": "serios | seriosa"
+    },
+    {
+        "t": "serp",
+        "d": "serp",
+        "s": "serp"
+    },
+    {
+        "t": "serra",
+        "d": "serra",
+        "s": "serra"
+    },
+    {
+        "t": "servei_(o_servici)",
+        "d": "servei <span class=\"no-bold\">(o<\/span> servici<span class=\"no-bold\">)<\/span>",
+        "s": "servei (o servici)"
+    },
+    {
+        "t": "servici",
+        "d": "servici",
+        "s": "servici"
+    },
+    {
+        "t": "servir",
+        "d": "servir",
+        "s": "servir"
+    },
+    {
+        "t": "set",
+        "d": "set",
+        "s": "set"
+    },
+    {
+        "t": "setembre",
+        "d": "setembre",
+        "s": "setembre"
+    },
+    {
+        "t": "setmana",
+        "d": "setmana",
+        "s": "setmana"
+    },
+    {
+        "t": "seure",
+        "d": "seure",
+        "s": "seure"
+    },
+    {
+        "t": "seva_[la]",
+        "d": "seva <span class=\"no-bold\">[la]<\/span>",
+        "s": "seva [la]"
+    },
+    {
+        "t": "sexe",
+        "d": "sexe",
+        "s": "sexe"
+    },
+    {
+        "t": "símbol",
+        "d": "símbol",
+        "s": "simbol"
+    },
+    {
+        "t": "simple",
+        "d": "simple",
+        "s": "simple"
+    },
+    {
+        "t": "so",
+        "d": "so",
+        "s": "so"
+    },
+    {
+        "t": "sobrar",
+        "d": "sobrar",
+        "s": "sobrar"
+    },
+    {
+        "t": "social",
+        "d": "social",
+        "s": "social"
+    },
+    {
+        "t": "sofrir",
+        "d": "sofrir",
+        "s": "sofrir"
+    },
+    {
+        "t": "sol_|_sola",
+        "d": "sol <span class=\"no-bold\">|<\/span> sola",
+        "s": "sol | sola"
+    },
+    {
+        "t": "soldat",
+        "d": "soldat",
+        "s": "soldat"
+    },
+    {
+        "t": "somiar",
+        "d": "somiar",
+        "s": "somiar"
+    },
+    {
+        "t": "son",
+        "d": "son",
+        "s": "son"
+    },
+    {
+        "t": "sopar",
+        "d": "sopar",
+        "s": "sopar"
+    },
+    {
+        "t": "sord_|_sorda",
+        "d": "sord <span class=\"no-bold\">|<\/span> sorda",
+        "s": "sord | sorda"
+    },
+    {
+        "t": "soroll",
+        "d": "soroll",
+        "s": "soroll"
+    },
+    {
+        "t": "sorprendre",
+        "d": "sorprendre",
+        "s": "sorprendre"
+    },
+    {
+        "t": "sort",
+        "d": "sort",
+        "s": "sort"
+    },
+    {
+        "t": "sortida",
+        "d": "sortida",
+        "s": "sortida"
+    },
+    {
+        "t": "sortir",
+        "d": "sortir",
+        "s": "sortir"
+    },
+    {
+        "t": "sostenir",
+        "d": "sostenir",
+        "s": "sostenir"
+    },
+    {
+        "t": "soterrar",
+        "d": "soterrar",
+        "s": "soterrar"
+    },
+    {
+        "t": "suar",
+        "d": "suar",
+        "s": "suar"
+    },
+    {
+        "t": "suau",
+        "d": "suau",
+        "s": "suau"
+    },
+    {
+        "t": "substituir",
+        "d": "substituir",
+        "s": "substituir"
+    },
+    {
+        "t": "sucre",
+        "d": "sucre",
+        "s": "sucre"
+    },
+    {
+        "t": "sud",
+        "d": "sud",
+        "s": "sud"
+    },
+    {
+        "t": "suggerir",
+        "d": "suggerir",
+        "s": "suggerir"
+    },
+    {
+        "t": "suma",
+        "d": "suma",
+        "s": "suma"
+    },
+    {
+        "t": "surar",
+        "d": "surar",
+        "s": "surar"
+    },
+    {
+        "t": "tallar",
+        "d": "tallar",
+        "s": "tallar"
+    },
+    {
+        "t": "tancar",
+        "d": "tancar",
+        "s": "tancar"
+    },
+    {
+        "t": "tant",
+        "d": "tant",
+        "s": "tant"
+    },
+    {
+        "t": "tapar",
+        "d": "tapar",
+        "s": "tapar"
+    },
+    {
+        "t": "tapís",
+        "d": "tapís",
+        "s": "tapis"
+    },
+    {
+        "t": "tard",
+        "d": "tard",
+        "s": "tard"
+    },
+    {
+        "t": "tarda",
+        "d": "tarda",
+        "s": "tarda"
+    },
+    {
+        "t": "tardor",
+        "d": "tardor",
+        "s": "tardor"
+    },
+    {
+        "t": "taronja",
+        "d": "taronja",
+        "s": "taronja"
+    },
+    {
+        "t": "tastar",
+        "d": "tastar",
+        "s": "tastar"
+    },
+    {
+        "t": "taula",
+        "d": "taula",
+        "s": "taula"
+    },
+    {
+        "t": "teatre",
+        "d": "teatre",
+        "s": "teatre"
+    },
+    {
+        "t": "telèfon",
+        "d": "telèfon",
+        "s": "telefon"
+    },
+    {
+        "t": "televisió",
+        "d": "televisió",
+        "s": "televisio"
+    },
+    {
+        "t": "témer",
+        "d": "témer",
+        "s": "temer"
+    },
+    {
+        "t": "tempesta",
+        "d": "tempesta",
+        "s": "tempesta"
+    },
+    {
+        "t": "temps",
+        "d": "temps",
+        "s": "temps"
+    },
+    {
+        "t": "tendir",
+        "d": "tendir",
+        "s": "tendir"
+    },
+    {
+        "t": "tendre_|_tendra",
+        "d": "tendre <span class=\"no-bold\">|<\/span> tendra",
+        "s": "tendre | tendra"
+    },
+    {
+        "t": "tenir",
+        "d": "tenir",
+        "s": "tenir"
+    },
+    {
+        "t": "terme",
+        "d": "terme",
+        "s": "terme"
+    },
+    {
+        "t": "terra",
+        "d": "terra",
+        "s": "terra"
+    },
+    {
+        "t": "terrible",
+        "d": "terrible",
+        "s": "terrible"
+    },
+    {
+        "t": "tia",
+        "d": "tia",
+        "s": "tia"
+    },
+    {
+        "t": "tindre",
+        "d": "tindre",
+        "s": "tindre"
+    },
+    {
+        "t": "tirar",
+        "d": "tirar",
+        "s": "tirar"
+    },
+    {
+        "t": "to",
+        "d": "to",
+        "s": "to"
+    },
+    {
+        "t": "tocar",
+        "d": "tocar",
+        "s": "tocar"
+    },
+    {
+        "t": "tombar",
+        "d": "tombar",
+        "s": "tombar"
+    },
+    {
+        "t": "topar",
+        "d": "topar",
+        "s": "topar"
+    },
+    {
+        "t": "tornar",
+        "d": "tornar",
+        "s": "tornar"
+    },
+    {
+        "t": "tort_|_torta",
+        "d": "tort <span class=\"no-bold\">|<\/span> torta",
+        "s": "tort | torta"
+    },
+    {
+        "t": "tossut_|_tossuda",
+        "d": "tossut <span class=\"no-bold\">|<\/span> tossuda",
+        "s": "tossut | tossuda"
+    },
+    {
+        "t": "tot_|_tota",
+        "d": "tot <span class=\"no-bold\">|<\/span> tota",
+        "s": "tot | tota"
+    },
+    {
+        "t": "tou_|_tova",
+        "d": "tou <span class=\"no-bold\">|<\/span> tova",
+        "s": "tou | tova"
+    },
+    {
+        "t": "tractor",
+        "d": "tractor",
+        "s": "tractor"
+    },
+    {
+        "t": "trampa",
+        "d": "trampa",
+        "s": "trampa"
+    },
+    {
+        "t": "tranquil_|_tranquil·la",
+        "d": "tranquil <span class=\"no-bold\">|<\/span> tranquil·la",
+        "s": "tranquil | tranquil·la"
+    },
+    {
+        "t": "travessar",
+        "d": "travessar",
+        "s": "travessar"
+    },
+    {
+        "t": "treball",
+        "d": "treball",
+        "s": "treball"
+    },
+    {
+        "t": "treballar",
+        "d": "treballar",
+        "s": "treballar"
+    },
+    {
+        "t": "tremolar",
+        "d": "tremolar",
+        "s": "tremolar"
+    },
+    {
+        "t": "tren",
+        "d": "tren",
+        "s": "tren"
+    },
+    {
+        "t": "trencar",
+        "d": "trencar",
+        "s": "trencar"
+    },
+    {
+        "t": "tret",
+        "d": "tret",
+        "s": "tret"
+    },
+    {
+        "t": "treure_(o_traure)",
+        "d": "treure <span class=\"no-bold\">(o<\/span> traure<span class=\"no-bold\">)<\/span>",
+        "s": "treure (o traure)"
+    },
+    {
+        "t": "triar",
+        "d": "triar",
+        "s": "triar"
+    },
+    {
+        "t": "trist_|_trista",
+        "d": "trist <span class=\"no-bold\">|<\/span> trista",
+        "s": "trist | trista"
+    },
+    {
+        "t": "tro",
+        "d": "tro",
+        "s": "tro"
+    },
+    {
+        "t": "trobar",
+        "d": "trobar",
+        "s": "trobar"
+    },
+    {
+        "t": "tronc",
+        "d": "tronc",
+        "s": "tronc"
+    },
+    {
+        "t": "tros",
+        "d": "tros",
+        "s": "tros"
+    },
+    {
+        "t": "ull",
+        "d": "ull",
+        "s": "ull"
+    },
+    {
+        "t": "unflar",
+        "d": "unflar",
+        "s": "unflar"
+    },
+    {
+        "t": "ungla",
+        "d": "ungla",
+        "s": "ungla"
+    },
+    {
+        "t": "unir",
+        "d": "unir",
+        "s": "unir"
+    },
+    {
+        "t": "usar",
+        "d": "usar",
+        "s": "usar"
+    },
+    {
+        "t": "útil",
+        "d": "útil",
+        "s": "util"
+    },
+    {
+        "t": "vaca",
+        "d": "vaca",
+        "s": "vaca"
+    },
+    {
+        "t": "vacances",
+        "d": "vacances",
+        "s": "vacances"
+    },
+    {
+        "t": "vaixell",
+        "d": "vaixell",
+        "s": "vaixell"
+    },
+    {
+        "t": "valent_|_valenta",
+        "d": "valent <span class=\"no-bold\">|<\/span> valenta",
+        "s": "valent | valenta"
+    },
+    {
+        "t": "valer",
+        "d": "valer",
+        "s": "valer"
+    },
+    {
+        "t": "vall",
+        "d": "vall",
+        "s": "vall"
+    },
+    {
+        "t": "vegada",
+        "d": "vegada",
+        "s": "vegada"
+    },
+    {
+        "t": "veí",
+        "d": "veí",
+        "s": "vei"
+    },
+    {
+        "t": "vela",
+        "d": "vela",
+        "s": "vela"
+    },
+    {
+        "t": "vell_|_vella",
+        "d": "vell <span class=\"no-bold\">|<\/span> vella",
+        "s": "vell | vella"
+    },
+    {
+        "t": "vèncer_(o_véncer)",
+        "d": "vèncer <span class=\"no-bold\">(o<\/span> véncer<span class=\"no-bold\">)<\/span>",
+        "s": "vencer (o vencer)"
+    },
+    {
+        "t": "vendre",
+        "d": "vendre",
+        "s": "vendre"
+    },
+    {
+        "t": "venir",
+        "d": "venir",
+        "s": "venir"
+    },
+    {
+        "t": "vent",
+        "d": "vent",
+        "s": "vent"
+    },
+    {
+        "t": "ventre",
+        "d": "ventre",
+        "s": "ventre"
+    },
+    {
+        "t": "verd_|_verda",
+        "d": "verd <span class=\"no-bold\">|<\/span> verda",
+        "s": "verd | verda"
+    },
+    {
+        "t": "verdura",
+        "d": "verdura",
+        "s": "verdura"
+    },
+    {
+        "t": "verge",
+        "d": "verge",
+        "s": "verge"
+    },
+    {
+        "t": "vergonya",
+        "d": "vergonya",
+        "s": "vergonya"
+    },
+    {
+        "t": "veritat",
+        "d": "veritat",
+        "s": "veritat"
+    },
+    {
+        "t": "vermell_|_vermella",
+        "d": "vermell <span class=\"no-bold\">|<\/span> vermella",
+        "s": "vermell | vermella"
+    },
+    {
+        "t": "vespre",
+        "d": "vespre",
+        "s": "vespre"
+    },
+    {
+        "t": "vessar",
+        "d": "vessar",
+        "s": "vessar"
+    },
+    {
+        "t": "vestir",
+        "d": "vestir",
+        "s": "vestir"
+    },
+    {
+        "t": "vestit",
+        "d": "vestit",
+        "s": "vestit"
+    },
+    {
+        "t": "veta",
+        "d": "veta",
+        "s": "veta"
+    },
+    {
+        "t": "veu",
+        "d": "veu",
+        "s": "veu"
+    },
+    {
+        "t": "veure",
+        "d": "veure",
+        "s": "veure"
+    },
+    {
+        "t": "vi",
+        "d": "vi",
+        "s": "vi"
+    },
+    {
+        "t": "via",
+        "d": "via",
+        "s": "via"
+    },
+    {
+        "t": "viatge",
+        "d": "viatge",
+        "s": "viatge"
+    },
+    {
+        "t": "vida",
+        "d": "vida",
+        "s": "vida"
+    },
+    {
+        "t": "vidre",
+        "d": "vidre",
+        "s": "vidre"
+    },
+    {
+        "t": "vila",
+        "d": "vila",
+        "s": "vila"
+    },
+    {
+        "t": "virtut",
+        "d": "virtut",
+        "s": "virtut"
+    },
+    {
+        "t": "vista",
+        "d": "vista",
+        "s": "vista"
+    },
+    {
+        "t": "viu_|_viva",
+        "d": "viu <span class=\"no-bold\">|<\/span> viva",
+        "s": "viu | viva"
+    },
+    {
+        "t": "viure",
+        "d": "viure",
+        "s": "viure"
+    },
+    {
+        "t": "volar",
+        "d": "volar",
+        "s": "volar"
+    },
+    {
+        "t": "voler",
+        "d": "voler",
+        "s": "voler"
+    },
+    {
+        "t": "volta",
+        "d": "volta",
+        "s": "volta"
+    },
+    {
+        "t": "voluntat",
+        "d": "voluntat",
+        "s": "voluntat"
+    },
+    {
+        "t": "vomitar",
+        "d": "vomitar",
+        "s": "vomitar"
+    },
+    {
+        "t": "vora",
+        "d": "vora",
+        "s": "vora"
+    },
+    {
+        "t": "xai",
+        "d": "xai",
+        "s": "xai"
+    },
+    {
+        "t": "xarxa",
+        "d": "xarxa",
+        "s": "xarxa"
+    },
+    {
+        "t": "xerrar_(o_xarrar)",
+        "d": "xerrar <span class=\"no-bold\">(o<\/span> xarrar<span class=\"no-bold\">)<\/span>",
+        "s": "xerrar (o xarrar)"
+    },
+    {
+        "t": "xic_|_xica",
+        "d": "xic <span class=\"no-bold\">|<\/span> xica",
+        "s": "xic | xica"
+    },
+    {
+        "t": "xiquet",
+        "d": "xiquet",
+        "s": "xiquet"
+    },
+    {
+        "t": "xocar",
+        "d": "xocar",
+        "s": "xocar"
+    },
+    {
+        "t": "xocolata",
+        "d": "xocolata",
+        "s": "xocolata"
+    },
+    {
+        "t": "xuclar",
+        "d": "xuclar",
+        "s": "xuclar"
+    },
+    {
+        "t": "zero",
+        "d": "zero",
+        "s": "zero"
+    },
+    {
+        "t": "ziga-zaga",
+        "d": "ziga-zaga",
+        "s": "ziga-zaga"
+    },
+    {
+        "t": "zinc",
+        "d": "zinc",
+        "s": "zinc"
+    }
+]
