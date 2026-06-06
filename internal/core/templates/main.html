@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .PlainTextTitle }} - DIRELEX</title>
+    <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="theme-color" content="#2c3e50">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/">Diccionari de recursos lexicals</a></h1>
+            <nav>
+                <a href="/sobre-el-direlex">Sobre el DIRELEX</a>
+                <a href="/">Cerca</a>
+                <a href="/glossari">Glossari</a>
+                <a href="/instruccions">Instruccions d'ús</a>
+                <a href="/abreviatures">Abreviatures</a>
+                <a href="/credits">Crèdits</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            {{ if eq .PageType "sobre-el-direlex" }}
+                {{ template "about.html" . }}
+            {{ else if eq .PageType "instruccions" }}
+                {{ template "instructions.html" . }}
+            {{ else if eq .PageType "abreviatures" }}
+                {{ template "abbreviations.html" . }}
+            {{ else if eq .PageType "credits" }}
+                {{ template "credits.html" . }}
+            {{ else if eq .PageType "glossari" }}
+                {{ template "glossary.html" . }}
+            {{ else if eq .PageType "semantic-field" }}
+                {{ template "semantic-field.html" . }}
+            {{ else if eq .PageType "letter" }}
+                {{ template "letter.html" . }}
+            {{ else if eq .PageType "404" }}
+                {{ template "404.html" . }}
+            {{ else if eq .PageType "home" }}
+                {{ template "home.html" . }}
+            {{ else if eq .PageType "entry" }}
+                {{ template "entry.html" . }}
+            {{ end }}
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p><small>&copy; 2025 Carles Castellanos i Llorenç, Agustí Mayor i Lloret. <a href="/credits">Crèdits&nbsp;del&nbsp;DIRELEX</a>.</small></p>
+            <p>
+                <a href="https://www.softcatala.org"><img alt="Softcatalà" width="110" src="/img/logo-softcatala.svg"></a>
+                <a href="https://llibresindex.blogspot.com/"><img alt="Llibres de l'índex" width="120" src="/img/logo-editorial.svg"></a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+*.local.*
+*.min.css
+*.min.js
+/build/
+/direlex
+/tmp/
+node_modules/

@@ -1,0 +1,13 @@
+{
+  "extends": ["config:best-practices", ":semanticCommits"],
+  "rangeStrategy": "pin",
+  "schedule": ["after 5pm on friday"],
+  "postUpdateOptions": ["gomodTidy"],
+  "packageRules": [
+    {
+      "description": "Group all non-major, pin, and digest updates together",
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "all non-major dependencies"
+    }
+  ]
+}

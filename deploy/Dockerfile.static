@@ -1,0 +1,26 @@
+# --- Build stage ---
+FROM golang:1.26-alpine@sha256:f23e8b227fb4493eabe03bede4d5a32d04092da71962f1fb79b5f7d1e6c2a17f AS builder
+
+WORKDIR /app
+
+COPY go.mod go.sum ./
+RUN go mod download
+
+COPY cmd/ cmd/
+COPY css/ css/
+COPY internal/ internal/
+COPY js/ js/
+COPY public/ public/
+
+RUN go run ./cmd/build-assets
+
+COPY data/ data/
+
+RUN go run ./cmd/generate
+
+# --- Caddy stage ---
+FROM caddy:2.11.3-alpine@sha256:86deaf5e3d3408a6ccec08fbb79989783dd26e206ae10bcf78a801dc8c9ab794
+COPY deploy/Caddyfile /etc/caddy/Caddyfile
+COPY --from=builder /app/build /usr/share/caddy
+
+EXPOSE 80

@@ -1,0 +1,12 @@
+{{ template "search.html" . }}
+<section class="content">
+    <nav class="page-nav">
+        {{ if .PrevSlug }}
+            <a href="/lema/{{ .PrevSlug }}" rel="prev" aria-label="Lema anterior" title="Lema anterior"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 15.808L9.692 12L13.5 8.192z"/></svg></a>
+        {{ end }}
+        {{ if .NextSlug }}
+            <a href="/lema/{{ .NextSlug }}" rel="next" aria-label="Lema següent" title="Lema següent"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M10.5 15.808V8.192L14.308 12z"/></svg></a>
+        {{ end }}
+    </nav>
+    {{ .ContentHTML }}
+</section>
