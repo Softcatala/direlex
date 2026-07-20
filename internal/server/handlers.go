@@ -19,29 +19,23 @@ func BasicPageHandler(path, title string) http.HandlerFunc {
 	}
 }
 
-// IndexAndEntryHandler handles requests for the index (homepage) and individual entry pages.
-// Both pages include client-side autocomplete functionality (implemented in JavaScript).
-//
-// Additionally:
-//   - Serves a 404 page for non-root paths, or non-existent entries.
-func IndexAndEntryHandler(w http.ResponseWriter, r *http.Request) {
-	slug := r.PathValue("slug")
-	if slug == "" {
-		if r.URL.Path != "/" {
-			serveNotFound(w)
-			return
-		}
-
-		// Index page (homepage)
-		pageData := core.CreateHomePageData()
-		err := core.MainTemplate.Execute(w, pageData)
-		if err != nil {
-			log.Printf("Error executing template: %v", err)
-		}
-		return
+// HomeHandler serves the homepage (GET /{$}).
+// Client-side autocomplete is implemented in JavaScript.
+// Register with the exact-path pattern "GET /{$}" so unknown paths are not
+// treated as the homepage (plain "GET /" is a catch-all in net/http.ServeMux).
+func HomeHandler(w http.ResponseWriter, r *http.Request) {
+	pageData := core.CreateHomePageData()
+	err := core.MainTemplate.Execute(w, pageData)
+	if err != nil {
+		log.Printf("Error executing template: %v", err)
 	}
+}
 
-	// Entry page
+// EntryHandler serves an individual dictionary entry (GET /lema/{slug}).
+// Client-side autocomplete is implemented in JavaScript.
+// Serves a 404 page when the slug does not match any entry.
+func EntryHandler(w http.ResponseWriter, r *http.Request) {
+	slug := r.PathValue("slug")
 	entryHTML, ok := core.RenderEntryBySlug(slug)
 	if !ok {
 		serveNotFound(w)
@@ -54,6 +48,12 @@ func IndexAndEntryHandler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		log.Printf("Error executing template: %v", err)
 	}
+}
+
+// NotFoundHandler serves the custom HTML 404 page for unmatched routes.
+// Register last with "GET /{path...}" so more specific patterns still win.
+func NotFoundHandler(w http.ResponseWriter, r *http.Request) {
+	serveNotFound(w)
 }
 
 // LetterHandler handles requests for browsing dictionary entries by the first letter.

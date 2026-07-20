@@ -1,3 +1,11 @@
+/**
+ * Lema search autocomplete.
+ *
+ * terms.json entries use short keys to keep the client payload small:
+ *   t  — title/slug (URL identifier; underscores for spaces/punctuation)
+ *   d  — display HTML shown in the suggestion list
+ *   s  — searchable form (lowercase, Catalan accents stripped; used for filter/rank)
+ */
 import { createAutocomplete } from "./autocomplete.js";
 import terms from "./data/terms.json" with { type: "json" };
 

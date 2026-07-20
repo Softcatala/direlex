@@ -15,9 +15,9 @@ import (
 )
 
 var browserTargets = []api.Engine{
-	{Name: api.EngineChrome, Version: "90"},
-	{Name: api.EngineFirefox, Version: "88"},
-	{Name: api.EngineSafari, Version: "14"},
+	{Name: api.EngineChrome, Version: "100"},
+	{Name: api.EngineFirefox, Version: "100"},
+	{Name: api.EngineSafari, Version: "15"},
 }
 
 func main() {
@@ -78,7 +78,7 @@ func buildJS() error {
 			MinifyWhitespace:  true,
 			MinifyIdentifiers: true,
 			MinifySyntax:      true,
-			Target:            api.ES2020,
+			Target:            api.ES2022,
 			Engines:           browserTargets,
 			Format:            api.FormatIIFE,
 			Outfile:           outputPath,

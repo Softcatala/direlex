@@ -1,5 +1,5 @@
 # --- Build stage ---
-FROM golang:1.26-alpine@sha256:7a3e50096189ad57c9f9f865e7e4aa8585ed1585248513dc5cda498e2f41812c AS builder
+FROM golang:1.26-alpine@sha256:0178a641fbb4858c5f1b48e34bdaabe0350a330a1b1149aabd498d0699ff5fb2 AS builder
 
 WORKDIR /app
 
@@ -14,7 +14,7 @@ COPY js/ js/
 RUN go run ./cmd/build-assets
 
 ENV CGO_ENABLED=0
-RUN go build -ldflags="-s -w" -o direlex ./cmd/server
+RUN go build -trimpath -ldflags="-s -w" -o direlex ./cmd/server
 
 # --- Final image ---
 FROM scratch

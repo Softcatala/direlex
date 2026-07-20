@@ -26,6 +26,18 @@ const (
 
 var brotliWriterPool sync.Pool
 
+var htmlMinifier = newHTMLMinifier()
+
+// newHTMLMinifier returns a minify instance configured for HTML pages.
+func newHTMLMinifier() *minify.M {
+	m := minify.New()
+	m.AddFunc("text/html", (&html.Minifier{
+		KeepDocumentTags: true,
+		KeepEndTags:      true,
+	}).Minify)
+	return m
+}
+
 // GenerateStaticSite generates all static HTML files for the dictionary website.
 func GenerateStaticSite() error {
 	log.Println("Starting static site generation...")
@@ -197,24 +209,13 @@ func writeHTMLFile(relativePath string, data core.PageData) error {
 		return err
 	}
 
-	m := minify.New()
-	htmlMinifier := &html.Minifier{
-		KeepDocumentTags: true,
-		KeepEndTags:      true,
-	}
-	m.AddFunc("text/html", htmlMinifier.Minify)
-	minifiedBytes, err := m.Bytes("text/html", buf.Bytes())
+	minifiedBytes, err := htmlMinifier.Bytes("text/html", buf.Bytes())
 	if err != nil {
 		log.Printf("warning: could not minify %s: %v. Original content will be used.", relativePath, err)
 		minifiedBytes = buf.Bytes()
 	}
 
-	err = os.WriteFile(fullPath, minifiedBytes, 0o644)
-	if err != nil {
-		return err
-	}
-
-	return nil
+	return os.WriteFile(fullPath, minifiedBytes, 0o644)
 }
 
 // compressFiles compresses files using GZIP and Brotli in parallel.

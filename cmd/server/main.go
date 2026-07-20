@@ -25,8 +25,9 @@ func main() {
 	}
 
 	mux := http.NewServeMux()
-	mux.HandleFunc("GET /", server.IndexAndEntryHandler)
-	mux.HandleFunc("GET /lema/{slug}", server.IndexAndEntryHandler)
+	// Exact homepage only. Plain "GET /" would also match every unmatched path.
+	mux.HandleFunc("GET /{$}", server.HomeHandler)
+	mux.HandleFunc("GET /lema/{slug}", server.EntryHandler)
 	mux.HandleFunc("GET /lletra/{letter}", server.LetterHandler)
 	mux.HandleFunc("GET /camp-semantic/{slug}", server.SemanticFieldHandler)
 	for _, page := range core.StaticPages {
@@ -38,6 +39,9 @@ func main() {
 	mux.Handle("GET /img/", http.StripPrefix("/img/", http.FileServerFS(os.DirFS("public/img"))))
 	mux.Handle("GET /favicon.svg", http.FileServerFS(os.DirFS("public")))
 	mux.Handle("GET /robots.txt", http.FileServerFS(os.DirFS("public")))
+
+	// Custom HTML 404 for anything not matched above (must be registered last among path patterns).
+	mux.HandleFunc("GET /{path...}", server.NotFoundHandler)
 
 	serverAddress := core.GetServerAddress()
 	httpServer := &http.Server{

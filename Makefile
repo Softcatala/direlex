@@ -10,7 +10,7 @@ build-assets:
 
 ## build: Build the server binary
 build: build-assets
-	go build -buildvcs=false -ldflags="-s -w" -o direlex ./cmd/server
+	go build -trimpath -buildvcs=false -ldflags="-s -w" -o direlex ./cmd/server
 
 ## generate: Generate static site
 generate: build-assets

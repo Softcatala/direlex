@@ -1,3 +1,11 @@
+/**
+ * Glossary search autocomplete.
+ *
+ * terms-glossary.json entries use short keys to keep the client payload small:
+ *   id — term id (matches the in-page anchor href target)
+ *   d  — display HTML shown in the suggestion list
+ *   s  — searchable form (lowercase, Catalan accents stripped; used for filter/rank)
+ */
 import { createAutocomplete } from "./autocomplete.js";
 import terms from "./data/terms-glossary.json" with { type: "json" };
 

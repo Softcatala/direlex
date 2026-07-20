@@ -1,6 +1,11 @@
 /**
  * Reusable autocomplete module
  *
+ * Data items are plain objects; callers pass key names for each role:
+ *   searchKey  — substring match + normalized prefix ranking (accents stripped)
+ *   displayKey — HTML rendered in each suggestion row
+ *   titleKey   — exact-prefix ranking and identity (slug or id; may keep accents)
+ *
  * Usage:
  * ```js
  * import { createAutocomplete } from './autocomplete.js';
@@ -11,6 +16,7 @@
  *   data: myDataArray,
  *   searchKey: 'search',
  *   displayKey: 'display',
+ *   titleKey: 'title',
  *   onSelect: (item) => console.log('Selected:', item),
  *   maxResults: 10,
  *   normalizeText: (text) => text.toLowerCase()
@@ -55,13 +61,15 @@ export function createAutocomplete(options) {
 
   const defaultSortFunction = (items, searchTerm, searchTermNormalized) =>
     items.sort((a, b) => {
-      // Check if starts with search term (exact accents).
+      // Check if title starts with search term (exact accents as typed).
       const aStartsExact = a[titleKey].startsWith(searchTerm);
       const bStartsExact = b[titleKey].startsWith(searchTerm);
 
-      // Check if starts with search term (normalized, no accents).
-      const aStarts = a[titleKey].startsWith(searchTermNormalized);
-      const bStarts = b[titleKey].startsWith(searchTermNormalized);
+      // Check if searchable form starts with normalized query (accents stripped).
+      // Use searchKey, not titleKey: titles keep accents (e.g. "absència") while
+      // the normalized query does not (e.g. "absencia").
+      const aStarts = a[searchKey].startsWith(searchTermNormalized);
+      const bStarts = b[searchKey].startsWith(searchTermNormalized);
 
       // 1. Prioritize exact accent matches that start with search term.
       if (aStartsExact && !bStartsExact) {
