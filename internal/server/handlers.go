@@ -1,3 +1,4 @@
+// Package server contains the HTTP handlers for the dictionary website.
 package server
 
 import (
@@ -10,7 +11,7 @@ import (
 // BasicPageHandler returns an HTTP handler function for rendering basic static pages.
 // It takes a path and title, which are used to populate the PageData struct.
 func BasicPageHandler(path, title string) http.HandlerFunc {
-	return func(w http.ResponseWriter, r *http.Request) {
+	return func(w http.ResponseWriter, _ *http.Request) {
 		pageData := core.CreateStaticPageData(path, title)
 		err := core.MainTemplate.Execute(w, pageData)
 		if err != nil {
@@ -23,7 +24,7 @@ func BasicPageHandler(path, title string) http.HandlerFunc {
 // Client-side autocomplete is implemented in JavaScript.
 // Register with the exact-path pattern "GET /{$}" so unknown paths are not
 // treated as the homepage (plain "GET /" is a catch-all in net/http.ServeMux).
-func HomeHandler(w http.ResponseWriter, r *http.Request) {
+func HomeHandler(w http.ResponseWriter, _ *http.Request) {
 	pageData := core.CreateHomePageData()
 	err := core.MainTemplate.Execute(w, pageData)
 	if err != nil {
@@ -52,7 +53,7 @@ func EntryHandler(w http.ResponseWriter, r *http.Request) {
 
 // NotFoundHandler serves the custom HTML 404 page for unmatched routes.
 // Register last with "GET /{path...}" so more specific patterns still win.
-func NotFoundHandler(w http.ResponseWriter, r *http.Request) {
+func NotFoundHandler(w http.ResponseWriter, _ *http.Request) {
 	serveNotFound(w)
 }
 

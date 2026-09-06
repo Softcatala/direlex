@@ -1,3 +1,4 @@
+// Package generator builds the dictionary's static website.
 package generator
 
 import (
@@ -20,9 +21,7 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-const (
-	OutputDir = "build"
-)
+const outputDir = "build"
 
 var brotliWriterPool sync.Pool
 
@@ -42,12 +41,12 @@ func newHTMLMinifier() *minify.M {
 func GenerateStaticSite() error {
 	log.Println("Starting static site generation...")
 
-	err := os.RemoveAll(OutputDir)
+	err := os.RemoveAll(outputDir)
 	if err != nil {
 		return fmt.Errorf("failed to remove old output directory: %w", err)
 	}
 
-	err = os.MkdirAll(OutputDir, 0o755)
+	err = os.MkdirAll(outputDir, 0o755)
 	if err != nil {
 		return fmt.Errorf("failed to create output directory: %w", err)
 	}
@@ -89,7 +88,7 @@ func GenerateStaticSite() error {
 	}
 
 	log.Println("Copying assets...")
-	err = os.CopyFS(OutputDir, os.DirFS("public"))
+	err = os.CopyFS(outputDir, os.DirFS("public"))
 	if err != nil {
 		return fmt.Errorf("failed to copy assets: %w", err)
 	}
@@ -101,7 +100,7 @@ func GenerateStaticSite() error {
 	}
 
 	log.Println("Static site generation completed successfully.")
-	log.Printf("Output directory: %s\n", OutputDir)
+	log.Printf("Output directory: %s\n", outputDir)
 	return nil
 }
 
@@ -197,7 +196,7 @@ func generate404Page() error {
 
 // writeHTMLFile writes a rendered HTML page to the output directory.
 func writeHTMLFile(relativePath string, data core.PageData) error {
-	fullPath := filepath.Join(OutputDir, relativePath)
+	fullPath := filepath.Join(outputDir, relativePath)
 	err := os.MkdirAll(filepath.Dir(fullPath), 0o755)
 	if err != nil {
 		return err
@@ -252,7 +251,7 @@ func compressFiles() error {
 // getFilesToCompress returns a list of files that should be compressed.
 func getFilesToCompress() ([]string, error) {
 	var files []string
-	err := filepath.WalkDir(OutputDir, func(path string, d fs.DirEntry, err error) error {
+	err := filepath.WalkDir(outputDir, func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
 			return err
 		}
@@ -299,19 +298,28 @@ func shouldCompress(path string) bool {
 }
 
 // compressFileGzip creates a pre-compressed .gz version of the given file.
-func compressFileGzip(filePath string, content []byte) error {
+func compressFileGzip(filePath string, content []byte) (err error) {
 	gzPath := filePath + ".gz"
 	file, err := os.Create(gzPath)
 	if err != nil {
 		return fmt.Errorf("failed to create file: %w", err)
 	}
-	defer file.Close()
+	defer func() {
+		cerr := file.Close()
+		if err == nil && cerr != nil {
+			err = fmt.Errorf("failed to close file: %w", cerr)
+		}
+	}()
 
 	gzWriter, err := gzip.NewWriterLevel(file, gzip.BestCompression)
 	if err != nil {
 		return fmt.Errorf("failed to create writer: %w", err)
 	}
-	defer gzWriter.Close()
+	defer func() {
+		if cerr := gzWriter.Close(); cerr != nil && err == nil {
+			err = fmt.Errorf("failed to close gzip writer: %w", cerr)
+		}
+	}()
 
 	_, err = gzWriter.Write(content)
 	if err != nil {
@@ -322,28 +330,37 @@ func compressFileGzip(filePath string, content []byte) error {
 }
 
 // compressFileBrotli creates a pre-compressed .br version of the given file.
-func compressFileBrotli(filePath string, content []byte) error {
+func compressFileBrotli(filePath string, content []byte) (err error) {
 	brPath := filePath + ".br"
 	file, err := os.Create(brPath)
 	if err != nil {
 		return fmt.Errorf("failed to create file: %w", err)
 	}
-	defer file.Close()
+	defer func() {
+		cerr := file.Close()
+		if err == nil && cerr != nil {
+			err = fmt.Errorf("failed to close file: %w", cerr)
+		}
+	}()
 
 	brWriter, err := acquireBrotliWriter(file)
-	defer brotliWriterPool.Put(brWriter)
 	if err != nil {
 		return fmt.Errorf("failed to create writer: %w", err)
 	}
 
+	defer func() {
+		cerr := brWriter.Close()
+		if cerr != nil && err == nil {
+			err = fmt.Errorf("failed to close writer: %w", cerr)
+		}
+		if err == nil {
+			brotliWriterPool.Put(brWriter)
+		}
+	}()
+
 	_, err = brWriter.Write(content)
 	if err != nil {
 		return fmt.Errorf("failed to write content: %w", err)
-	}
-
-	err = brWriter.Close()
-	if err != nil {
-		return fmt.Errorf("failed to close writer: %w", err)
 	}
 
 	return nil
@@ -354,9 +371,10 @@ func compressFileBrotli(filePath string, content []byte) error {
 func acquireBrotliWriter(dst *os.File) (*brotli.Writer, error) {
 	v := brotliWriterPool.Get()
 	if v != nil {
-		w := v.(*brotli.Writer)
-		w.Reset(dst)
-		return w, nil
+		if w, ok := v.(*brotli.Writer); ok {
+			w.Reset(dst)
+			return w, nil
+		}
 	}
 	return brotli.NewWriter(dst, brotli.BestCompression)
 }

@@ -22,12 +22,11 @@ start: build
 
 ## lint: Run all Go linters
 lint:
-	go vet ./...
-	gofmt -l .
+	golangci-lint run
 
-## fix: Format Go code
+## fix: Format and fix Go code
 fix:
-	go fmt ./...
+	golangci-lint run --fix
 
 ## clean: Remove built binaries and build artifacts
 clean:

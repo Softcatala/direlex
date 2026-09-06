@@ -1,3 +1,4 @@
+// Package core contains the dictionary data model and rendering helpers.
 package core
 
 import (

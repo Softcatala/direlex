@@ -1,12 +1,16 @@
 {
   "extends": ["config:best-practices", ":semanticCommits"],
   "rangeStrategy": "pin",
-  "schedule": ["after 5pm on friday"],
+  "schedule": ["after 5pm on the first day of the month"],
   "postUpdateOptions": ["gomodTidy"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["after 5pm on the first day of the month"]
+  },
   "packageRules": [
     {
-      "description": "Group all non-major, pin, and digest updates together",
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "description": "Group all non-major, pin, digest, and lock file maintenance updates together",
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance"],
       "groupName": "all non-major dependencies"
     }
   ]

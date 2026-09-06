@@ -1,0 +1,56 @@
+version: "2"
+
+formatters:
+  enable:
+    - gofumpt
+  settings:
+    gofumpt:
+      extra:
+        group-params: true
+
+linters:
+  enable:
+    - bidichk
+    - bodyclose
+    - contextcheck
+    - errchkjson
+    - errorlint
+    - gocritic
+    - misspell
+    - modernize
+    - nakedret
+    - nilerr
+    - nilnil
+    - nolintlint
+    - revive
+    - unconvert
+    - unparam
+    - wastedassign
+  settings:
+    revive:
+      confidence: 0.8
+      severity: warning
+      enable-all-rules: true
+      rules:
+        - name: add-constant
+          disabled: true
+        - name: cognitive-complexity
+          disabled: true
+        - name: cyclomatic
+          disabled: true
+        - name: line-length-limit
+          disabled: true
+        - name: function-length
+          disabled: true
+        - name: enforce-switch-style
+          disabled: true
+        - name: max-control-nesting
+          disabled: true
+        - name: defer
+          disabled: true
+        - name: nested-structs
+          disabled: true
+        - name: unhandled-error
+          disabled: true
+        - name: confusing-results
+          disabled: true

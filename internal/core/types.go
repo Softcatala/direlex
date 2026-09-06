@@ -21,7 +21,7 @@ type SemanticField struct {
 	Path  string `json:"path"`
 }
 
-// Represents the data for rendering a page
+// PageData represents the data for rendering a page.
 type PageData struct {
 	// PlainTextTitle is used for rendering the page title in the template,
 	// inside <title> tag, and in autocomplete input value in entry pages.

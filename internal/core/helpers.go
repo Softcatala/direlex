@@ -51,13 +51,13 @@ func LoadDataFromFile(filePath string) error {
 	if err != nil {
 		return fmt.Errorf("failed to open data file %s: %w", filePath, err)
 	}
-	defer file.Close()
+	defer file.Close() //nolint:errcheck // read-only file
 
 	gzipReader, err := gzip.NewReader(file)
 	if err != nil {
 		return fmt.Errorf("failed to create gzip reader: %w", err)
 	}
-	defer gzipReader.Close()
+	defer gzipReader.Close() //nolint:errcheck // decode already reports read errors
 
 	var data struct {
 		Entries        []Entry           `json:"entries"`
