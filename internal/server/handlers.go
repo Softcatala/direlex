@@ -12,11 +12,7 @@ import (
 // It takes a path and title, which are used to populate the PageData struct.
 func BasicPageHandler(path, title string) http.HandlerFunc {
 	return func(w http.ResponseWriter, _ *http.Request) {
-		pageData := core.CreateStaticPageData(path, title)
-		err := core.MainTemplate.Execute(w, pageData)
-		if err != nil {
-			log.Printf("Error executing template: %v", err)
-		}
+		renderPage(w, core.CreateStaticPageData(path, title))
 	}
 }
 
@@ -25,11 +21,7 @@ func BasicPageHandler(path, title string) http.HandlerFunc {
 // Register with the exact-path pattern "GET /{$}" so unknown paths are not
 // treated as the homepage (plain "GET /" is a catch-all in net/http.ServeMux).
 func HomeHandler(w http.ResponseWriter, _ *http.Request) {
-	pageData := core.CreateHomePageData()
-	err := core.MainTemplate.Execute(w, pageData)
-	if err != nil {
-		log.Printf("Error executing template: %v", err)
-	}
+	renderPage(w, core.CreateHomePageData())
 }
 
 // EntryHandler serves an individual dictionary entry (GET /lema/{slug}).
@@ -44,11 +36,7 @@ func EntryHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	prevSlug, nextSlug := core.GetAdjacentEntrySlugs(slug)
-	pageData := core.CreateEntryPageData(slug, entryHTML, prevSlug, nextSlug)
-	err := core.MainTemplate.Execute(w, pageData)
-	if err != nil {
-		log.Printf("Error executing template: %v", err)
-	}
+	renderPage(w, core.CreateEntryPageData(slug, entryHTML, prevSlug, nextSlug))
 }
 
 // NotFoundHandler serves the custom HTML 404 page for unmatched routes.
@@ -78,11 +66,7 @@ func LetterHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	prevLetter, nextLetter := core.GetNavigationLetters(letter)
-	pageData := core.CreateLetterPageData(letter, entries, prevLetter, nextLetter)
-	err := core.MainTemplate.Execute(w, pageData)
-	if err != nil {
-		log.Printf("Error executing template: %v", err)
-	}
+	renderPage(w, core.CreateLetterPageData(letter, entries, prevLetter, nextLetter))
 }
 
 // SemanticFieldHandler handles requests for semantic field pages.
@@ -95,11 +79,7 @@ func SemanticFieldHandler(w http.ResponseWriter, r *http.Request) {
 	slug := r.PathValue("slug")
 	for _, field := range core.SemanticFields {
 		if field.Path == slug {
-			pageData := core.CreateSemanticFieldPageData(field.Title, field.Body)
-			err := core.MainTemplate.Execute(w, pageData)
-			if err != nil {
-				log.Printf("Error executing template: %v", err)
-			}
+			renderPage(w, core.CreateSemanticFieldPageData(field.Title, field.Body))
 			return
 		}
 	}
@@ -107,12 +87,16 @@ func SemanticFieldHandler(w http.ResponseWriter, r *http.Request) {
 	serveNotFound(w)
 }
 
-// serveNotFound renders a standard 404 Not Found error page.
-func serveNotFound(w http.ResponseWriter) {
-	w.WriteHeader(http.StatusNotFound)
-	pageData := core.Create404PageData()
+// renderPage executes the main template and logs any rendering error.
+func renderPage(w http.ResponseWriter, pageData core.PageData) {
 	err := core.MainTemplate.Execute(w, pageData)
 	if err != nil {
 		log.Printf("Error executing template: %v", err)
 	}
+}
+
+// serveNotFound renders a standard 404 Not Found error page.
+func serveNotFound(w http.ResponseWriter) {
+	w.WriteHeader(http.StatusNotFound)
+	renderPage(w, core.Create404PageData())
 }

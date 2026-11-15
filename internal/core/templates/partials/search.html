@@ -10,5 +10,5 @@
             {{ if eq .PageType "entry" }}value="{{ .PlainTextTitle }}"{{ end }}
         >
     </div>
-    <script src="/js/search.min.js" async></script>
+    <script src="/js/search.min.js{{ if .AssetVersion }}?v={{ .AssetVersion }}{{ end }}" async></script>
 </div>

@@ -23,6 +23,9 @@ type SemanticField struct {
 
 // PageData represents the data for rendering a page.
 type PageData struct {
+	// AssetVersion is the build date used to invalidate cached assets.
+	AssetVersion string
+
 	// PlainTextTitle is used for rendering the page title in the template,
 	// inside <title> tag, and in autocomplete input value in entry pages.
 	PlainTextTitle string

@@ -12,7 +12,7 @@ Source code for the online version of the Diccionari de recursos lexicals ([DIRE
 
 ### Option 2: Native compilation with Go
 
-- Go 1.25+
+- Go
 
 ## Build and execution
 
@@ -68,7 +68,7 @@ Codi font de la versió en línia del Diccionari de recursos lexicals ([DIRELEX]
 
 ### Opció 2: compilació nativa amb Go
 
-- Go 1.25+
+- Go
 
 ## Compilació i execució
 

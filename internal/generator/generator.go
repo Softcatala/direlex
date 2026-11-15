@@ -11,8 +11,7 @@ import (
 	"path/filepath"
 	"runtime"
 	"strings"
-	"sync"
-	"sync/atomic"
+	"time"
 
 	brotli "github.com/molecule-man/go-brrr"
 	"github.com/softcatala/direlex/internal/core"
@@ -23,9 +22,10 @@ import (
 
 const outputDir = "build"
 
-var brotliWriterPool sync.Pool
-
 var htmlMinifier = newHTMLMinifier()
+
+// buildDate is shared by all generated pages so their asset URLs are invalidated together.
+var buildDate = time.Now().UTC().Format("20060102-150405")
 
 // newHTMLMinifier returns a minify instance configured for HTML pages.
 func newHTMLMinifier() *minify.M {
@@ -52,7 +52,7 @@ func GenerateStaticSite() error {
 	}
 
 	log.Println("Generating homepage...")
-	err = generateHomePage()
+	err = writeHTMLFile("index.html", core.CreateHomePageData())
 	if err != nil {
 		return fmt.Errorf("failed to generate homepage: %w", err)
 	}
@@ -82,7 +82,7 @@ func GenerateStaticSite() error {
 	}
 
 	log.Println("Generating 404 page...")
-	err = generate404Page()
+	err = writeHTMLFile("404.html", core.Create404PageData())
 	if err != nil {
 		return fmt.Errorf("failed to generate 404 page: %w", err)
 	}
@@ -104,12 +104,6 @@ func GenerateStaticSite() error {
 	return nil
 }
 
-// generateHomePage generates the homepage (index.html).
-func generateHomePage() error {
-	pageData := core.CreateHomePageData()
-	return writeHTMLFile("index.html", pageData)
-}
-
 // generateEntryPages generates all individual entry pages.
 func generateEntryPages() error {
 	for _, entry := range core.AllEntries {
@@ -126,10 +120,12 @@ func generateEntryPages() error {
 func generateEntryPage(entry core.Entry) error {
 	entryHTML := core.RenderEntry(entry)
 	prevSlug, nextSlug := core.GetAdjacentEntrySlugs(entry.Slug)
-	pageData := core.CreateEntryPageData(entry.Slug, entryHTML, prevSlug, nextSlug)
 	outputPath := filepath.Join("lema", entry.Slug+".html")
 
-	err := writeHTMLFile(outputPath, pageData)
+	err := writeHTMLFile(
+		outputPath,
+		core.CreateEntryPageData(entry.Slug, entryHTML, prevSlug, nextSlug),
+	)
 	if err != nil {
 		return fmt.Errorf("failed to generate entry %s: %w", entry.Slug, err)
 	}
@@ -146,10 +142,9 @@ func generateLetterPages() error {
 		}
 
 		prevLetter, nextLetter := core.GetNavigationLetters(letter)
-		pageData := core.CreateLetterPageData(letter, entries, prevLetter, nextLetter)
 
 		outputPath := filepath.Join("lletra", letter+".html")
-		err := writeHTMLFile(outputPath, pageData)
+		err := writeHTMLFile(outputPath, core.CreateLetterPageData(letter, entries, prevLetter, nextLetter))
 		if err != nil {
 			return fmt.Errorf("failed to generate letter page %s: %w", letter, err)
 		}
@@ -161,10 +156,8 @@ func generateLetterPages() error {
 // generateStaticPages generates static pages as flat files.
 func generateStaticPages() error {
 	for _, page := range core.StaticPages {
-		pageData := core.CreateStaticPageData(page.Path, page.Title)
-
 		outputPath := page.Path + ".html"
-		err := writeHTMLFile(outputPath, pageData)
+		err := writeHTMLFile(outputPath, core.CreateStaticPageData(page.Path, page.Title))
 		if err != nil {
 			return fmt.Errorf("failed to generate page %s: %w", page.Path, err)
 		}
@@ -176,10 +169,8 @@ func generateStaticPages() error {
 // generateSemanticFieldPages generates all semantic field pages as flat files.
 func generateSemanticFieldPages() error {
 	for _, field := range core.SemanticFields {
-		pageData := core.CreateSemanticFieldPageData(field.Title, field.Body)
-
 		outputPath := filepath.Join("camp-semantic", field.Path+".html")
-		err := writeHTMLFile(outputPath, pageData)
+		err := writeHTMLFile(outputPath, core.CreateSemanticFieldPageData(field.Title, field.Body))
 		if err != nil {
 			return fmt.Errorf("failed to generate semantic field page %s: %w", field.Path, err)
 		}
@@ -188,14 +179,9 @@ func generateSemanticFieldPages() error {
 	return nil
 }
 
-// generate404Page generates the 404 error page.
-func generate404Page() error {
-	pageData := core.Create404PageData()
-	return writeHTMLFile("404.html", pageData)
-}
-
 // writeHTMLFile writes a rendered HTML page to the output directory.
 func writeHTMLFile(relativePath string, data core.PageData) error {
+	data.AssetVersion = buildDate
 	fullPath := filepath.Join(outputDir, relativePath)
 	err := os.MkdirAll(filepath.Dir(fullPath), 0o755)
 	if err != nil {
@@ -224,28 +210,22 @@ func compressFiles() error {
 		return err
 	}
 
-	total := len(filesToCompress)
-	g := new(errgroup.Group)
-	g.SetLimit(runtime.NumCPU())
-	var processed atomic.Int64
+	var g errgroup.Group
+	g.SetLimit(runtime.GOMAXPROCS(0))
 
 	for _, path := range filesToCompress {
 		g.Go(func() error {
-			err := compressFile(path)
-			if err != nil {
-				return err
-			}
-
-			n := int(processed.Add(1))
-			if n%100 == 0 || n == total {
-				log.Printf("  Compressed %d/%d files\n", n, total)
-			}
-
-			return nil
+			return compressFile(path)
 		})
 	}
 
-	return g.Wait()
+	err = g.Wait()
+	if err != nil {
+		return err
+	}
+
+	log.Printf("  Compressed %d files\n", len(filesToCompress))
+	return nil
 }
 
 // getFilesToCompress returns a list of files that should be compressed.
@@ -298,83 +278,32 @@ func shouldCompress(path string) bool {
 }
 
 // compressFileGzip creates a pre-compressed .gz version of the given file.
-func compressFileGzip(filePath string, content []byte) (err error) {
-	gzPath := filePath + ".gz"
-	file, err := os.Create(gzPath)
-	if err != nil {
-		return fmt.Errorf("failed to create file: %w", err)
-	}
-	defer func() {
-		cerr := file.Close()
-		if err == nil && cerr != nil {
-			err = fmt.Errorf("failed to close file: %w", cerr)
-		}
-	}()
-
-	gzWriter, err := gzip.NewWriterLevel(file, gzip.BestCompression)
+func compressFileGzip(filePath string, content []byte) error {
+	var buf bytes.Buffer
+	gzWriter, err := gzip.NewWriterLevel(&buf, gzip.BestCompression)
 	if err != nil {
 		return fmt.Errorf("failed to create writer: %w", err)
 	}
-	defer func() {
-		if cerr := gzWriter.Close(); cerr != nil && err == nil {
-			err = fmt.Errorf("failed to close gzip writer: %w", cerr)
-		}
-	}()
 
 	_, err = gzWriter.Write(content)
 	if err != nil {
 		return fmt.Errorf("failed to write content: %w", err)
 	}
 
-	return nil
+	err = gzWriter.Close()
+	if err != nil {
+		return fmt.Errorf("failed to close gzip writer: %w", err)
+	}
+
+	return os.WriteFile(filePath+".gz", buf.Bytes(), 0o644)
 }
 
 // compressFileBrotli creates a pre-compressed .br version of the given file.
-func compressFileBrotli(filePath string, content []byte) (err error) {
-	brPath := filePath + ".br"
-	file, err := os.Create(brPath)
+func compressFileBrotli(filePath string, content []byte) error {
+	compressed, err := brotli.Compress(content, brotli.BestCompression)
 	if err != nil {
-		return fmt.Errorf("failed to create file: %w", err)
-	}
-	defer func() {
-		cerr := file.Close()
-		if err == nil && cerr != nil {
-			err = fmt.Errorf("failed to close file: %w", cerr)
-		}
-	}()
-
-	brWriter, err := acquireBrotliWriter(file)
-	if err != nil {
-		return fmt.Errorf("failed to create writer: %w", err)
+		return err
 	}
 
-	defer func() {
-		cerr := brWriter.Close()
-		if cerr != nil && err == nil {
-			err = fmt.Errorf("failed to close writer: %w", cerr)
-		}
-		if err == nil {
-			brotliWriterPool.Put(brWriter)
-		}
-	}()
-
-	_, err = brWriter.Write(content)
-	if err != nil {
-		return fmt.Errorf("failed to write content: %w", err)
-	}
-
-	return nil
-}
-
-// acquireBrotliWriter creates a reusable Brotli writer.
-// Creating the NewWriter is very memory-expensive on level 11.
-func acquireBrotliWriter(dst *os.File) (*brotli.Writer, error) {
-	v := brotliWriterPool.Get()
-	if v != nil {
-		if w, ok := v.(*brotli.Writer); ok {
-			w.Reset(dst)
-			return w, nil
-		}
-	}
-	return brotli.NewWriter(dst, brotli.BestCompression)
+	return os.WriteFile(filePath+".br", compressed, 0o644)
 }

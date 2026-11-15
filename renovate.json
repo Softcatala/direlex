@@ -1,11 +1,9 @@
 {
   "extends": ["config:best-practices", ":semanticCommits"],
   "rangeStrategy": "pin",
-  "schedule": ["after 5pm on the first day of the month"],
   "postUpdateOptions": ["gomodTidy"],
   "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["after 5pm on the first day of the month"]
+    "enabled": true
   },
   "packageRules": [
     {

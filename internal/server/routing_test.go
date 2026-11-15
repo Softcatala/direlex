@@ -21,11 +21,13 @@ func TestRoutingAndNotFound(t *testing.T) {
 		t.Fatal("runtime.Caller failed")
 	}
 	root := filepath.Clean(filepath.Join(filepath.Dir(thisFile), "../.."))
-	if err := os.Chdir(root); err != nil {
+	err := os.Chdir(root)
+	if err != nil {
 		t.Fatal(err)
 	}
 
-	if err := core.Init(); err != nil {
+	err = core.Init()
+	if err != nil {
 		t.Fatal(err)
 	}
 

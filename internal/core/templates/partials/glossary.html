@@ -41,4 +41,4 @@
     {{ end }}
 </section>
 <a href="#" id="back-to-top" aria-label="Tornar a dalt">↑</a>
-<script src="/js/search-glossary.min.js" async></script>
+<script src="/js/search-glossary.min.js{{ if .AssetVersion }}?v={{ .AssetVersion }}{{ end }}" async></script>
